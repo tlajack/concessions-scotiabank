@@ -26,6 +26,10 @@ const MenuItem = styled.div`
   .description {
     grid-column: 1/2;
   }
+  .menuPhoto {
+    grid-column: 1/3;
+    margin-bottom: 1em;
+  }
 `;
 
 const Drinks = styled.div`
@@ -194,10 +198,15 @@ const CherryPage = () => {
         <StaticImage
           className="logo"
           src="../images/logo-CherrySt.png"
-          alt="A kitten"
+          alt="Cherry St. Logo"
         />
         <h1 id="entree">Entree</h1>
         <MenuItem>
+          <StaticImage
+            className="menuPhoto"
+            src="../images/CherrySt-.jpg"
+            alt="Prime Rib Sandwich"
+          />
           <h2>Prime Rib Sandwich</h2>
           <p className="price">19.75</p>
           <div className="description">
@@ -208,6 +217,11 @@ const CherryPage = () => {
           </div>
         </MenuItem>
         <MenuItem>
+          <StaticImage
+            className="menuPhoto"
+            src="../images/CherrySt-7.jpg"
+            alt="Prime"
+          />
           <h2>Brisket Sandwich</h2>
           <p className="price">18.00</p>
           <div className="description">
@@ -218,6 +232,11 @@ const CherryPage = () => {
           </div>
         </MenuItem>
         <MenuItem>
+          <StaticImage
+            className="menuPhoto"
+            src="../images/CherrySt-2.jpg"
+            alt="Prime"
+          />
           <h2>Pulled Pork Sandwich</h2>
           <p className="price">16.00</p>
           <div className="description">
@@ -228,6 +247,11 @@ const CherryPage = () => {
           </div>
         </MenuItem>
         <MenuItem>
+          <StaticImage
+            className="menuPhoto"
+            src="../images/CherrySt-3.jpg"
+            alt="Prime"
+          />
           <h2>Cherry Street Smoked Chicken Wings</h2>
           <p className="price">16.00</p>
           <div className="description">
@@ -238,6 +262,11 @@ const CherryPage = () => {
           </div>
         </MenuItem>
         <MenuItem>
+          <StaticImage
+            className="menuPhoto"
+            src="../images/CherrySt-4.jpg"
+            alt="Prime"
+          />
           <h2>Smoked Pork Riblets</h2>
           <p className="price">15.00</p>
           <div className="description">
@@ -245,6 +274,11 @@ const CherryPage = () => {
           </div>
         </MenuItem>
         <MenuItem>
+          <StaticImage
+            className="menuPhoto"
+            src="../images/CherrySt-5.jpg"
+            alt="Prime"
+          />
           <h2>Burnt End Chili Cheese Fries</h2>
           <p className="price">14.00</p>
           <div className="description">
@@ -254,6 +288,11 @@ const CherryPage = () => {
           </div>
         </MenuItem>
         <MenuItem>
+          <StaticImage
+            className="menuPhoto"
+            src="../images/CherrySt-6.jpg"
+            alt="Prime"
+          />
           <h2>Frito Pie</h2>
           <p className="price">9.00</p>
           <div className="description">
