@@ -783,7 +783,7 @@ const CherryPage = () => {
                 onKeyDown={clickHandler}
                 href="#entree"
               >
-                Entreé
+                Entrée
               </a>
             </li>
             <li>
