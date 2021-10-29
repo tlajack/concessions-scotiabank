@@ -1,12 +1,24 @@
 import React from "react";
 import Seo from "../components/seo";
+import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <Seo title="MLSE Concession Online Menu" />
-      <p>MLSE Concession Online Menu</p>
+      <Seo title="Scotiabank Arena Online Menu" />
+      <StaticImage
+        className="menuPhoto"
+        src="../images/logo-scotiabankarena.png"
+        alt="Scotiabank Arena Logo"
+      />
+
+      <p>Scotiabank Arena Online Menu:</p>
+      <ul>
+        <li>
+          <a href="/draughtdeck">Molson Draught Deck</a>
+        </li>
+      </ul>
     </Layout>
   );
 };
