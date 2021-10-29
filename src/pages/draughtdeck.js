@@ -48,10 +48,15 @@ const Drinks = styled.div`
   .drinkType {
     /* text-align: right; */
   }
+  .wide {
+    grid-column: 1/3;
+    margin-right: 1em;
+  }
   .drinkPrice {
     /* text-align: right; */
     padding-right: 1em;
   }
+
   @media (max-width: 768px) {
     font-size: 0.8em !important;
     line-height: 1em;
@@ -73,12 +78,21 @@ const MenuContainer = styled.div`
   padding: 1rem;
   margin: auto;
   color: white;
+  .notes {
+    font-size: 0.8em;
+  }
   h1 {
     color: var(--red);
     font-size: 1.8rem;
     margin-top: 2.5rem;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  .sectionTitle {
+    color: black !important;
+    font-size: 2em !important;
+    grid-column: 1/3;
   }
 
   .logo {
@@ -112,6 +126,9 @@ const MenuContainer = styled.div`
 const DraughtDeck = styled.div`
   background-color: #eee;
   color: black;
+  .notes {
+    margin: 0 1em;
+  }
 `;
 
 const FlyingMenuContainer = styled.div`
@@ -200,7 +217,7 @@ const CherryPage = () => {
           src="../images/logo-CherrySt.png"
           alt="Cherry St. Logo"
         />
-        <h1 id="entree">Entree</h1>
+        <h1 id="entree">Entrée</h1>
         <MenuItem>
           <StaticImage
             className="menuPhoto"
@@ -252,7 +269,7 @@ const CherryPage = () => {
             src="../images/CherrySt-3.jpg"
             alt="Prime"
           />
-          <h2>Cherry Street Smoked Chicken Wings</h2>
+          <h2>Cherry Street Smoked Chicken&nbsp;Wings</h2>
           <p className="price">16.00</p>
           <div className="description">
             <p>
@@ -299,6 +316,7 @@ const CherryPage = () => {
             <p>Think Loaded Nachos in a Bag</p>
           </div>
         </MenuItem>
+        <p className="notes">Prices exclude all applicable taxes</p>
         <h1 id="nonalcoholic">NON-ALCOHOLIC</h1>
         <MenuItem>
           <h2>Collector Cup</h2>
@@ -318,7 +336,7 @@ const CherryPage = () => {
           <h2>Coca-Cola Bottled Beverages</h2>
           <p className="price">6.50</p>
           <div className="description">
-            <p>Root Beer, Nestea, Apple Juice, AHA Sparkling Water</p>
+            <p>Root Beer, Nestea, Apple Juice, AHA&nbsp;Sparkling Water</p>
           </div>
         </MenuItem>
         <MenuItem>
@@ -332,6 +350,7 @@ const CherryPage = () => {
             <p>Regular or Sugar Free</p>
           </div>
         </MenuItem>
+        <p className="notes">Prices exclude all applicable taxes</p>
         <h1 id="snacks">SNACKS</h1>
         <MenuItem>
           <h2>Bagged Popcorn</h2>
@@ -345,12 +364,18 @@ const CherryPage = () => {
           <h2>Bagged Candy</h2>
           <p className="price">7.75</p>
         </MenuItem>
+        <p className="notes">Prices exclude all applicable taxes</p>
         <DraughtDeck id="alcohol">
           <StaticImage
             className="logo"
             src="../images/draughtDeck.png"
             alt="A kitten"
           />
+          <p className="notes">
+            You must be 19 years of age or older to purchase and consume
+            alcohol. Please have your ID ready. Scotiabank Arena has a 2-drink
+            limit.
+          </p>
           <Drinks>
             <div>
               <StaticImage src="../images/drink-01.png" alt="Drink" />
@@ -549,8 +574,152 @@ const CherryPage = () => {
               </div>
             </div>
           </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-13.png" alt="Drink" />
+            </div>
+            <div>
+              <h1>Miller Lite</h1>
+              <div className="description">
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$11.75</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-14.png" alt="Drink" />
+            </div>
+            <div>
+              <h1>Miller High Life</h1>
+              <div className="description">
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$12.75</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-15.png" alt="Drink" />
+            </div>
+            <div>
+              <h1>Smirnoff Ice</h1>
+              <div className="description">
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$13.00</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-16.png" alt="Drink" />
+            </div>
+            <div>
+              <h1>Murphy’s Irish Stout</h1>
+              <div className="description">
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$13.25</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-17.png" alt="Drink" />
+            </div>
+            <div>
+              <h1>Molson Ultra</h1>
+              <div className="description">
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$11.75</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-18.png" alt="Drink" />
+            </div>
+            <div>
+              <h1>Glutenberg Blonde</h1>
+              <div className="description">
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$13.25</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-19.png" alt="Drink" />
+            </div>
+            <div>
+              <h1>Coors Edge</h1>
+              <div className="description">
+                <p className="drinkType">Non-Alcoholic Beer</p>
+                <p className="drinkPrice"></p>
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$7.50</p>
+              </div>
+            </div>
+          </Drinks>
+          <h1 className="sectionTitle">Liquor</h1>
+
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-20.png" alt="Drink" />
+            </div>
+            <div>
+              <h1>Lemon Zinger</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  CȊROC Vodka, Ginger Beer, Lemonade, Lemon
+                </p>
+                <p className="drinkPrice">$17.75</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-21.png" alt="Peach Punch" />
+            </div>
+            <div>
+              <h1>Peach Punch</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  CȊROC Peach, Cranberry Juice, Orange Juice, Lime
+                </p>
+                <p className="drinkPrice">$17.75</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-22.png" alt="Buzzer Beater" />
+            </div>
+            <div>
+              <h1>Buzzer Beater</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  Smirnoff Vodka, Watermelon Red Bull, Lime
+                </p>
+                <p className="drinkPrice">$17.75</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-23.png" alt="Citrus Sling" />
+            </div>
+            <div>
+              <h1>Citrus Sling</h1>
+              <div className="description">
+                <p className="drinkType wide">
+                  Seedlip, Non-Alcoholic Spirits, Lemonade, Tonic, Lemon
+                </p>
+                <p className="drinkPrice">$17.75</p>
+              </div>
+            </div>
+          </Drinks>
+          <hr />
           <Liquor>
-            <h2>Liquor</h2>
             <p className="liquorTitle">PREMIUM</p>
             <p className="liquorPrice">
               1oz - $11.00
@@ -569,7 +738,7 @@ const CherryPage = () => {
               <br />
               2oz - $23.50
             </p>
-            <h2>WINE</h2>
+            <h1 className="sectionTitle">WINE</h1>
             <p className="liquorTitle">HOUSE</p>
             <p className="liquorPrice">
               6oz - $12.50
@@ -582,27 +751,9 @@ const CherryPage = () => {
               <br />
               9oz - $21.00
             </p>
-            <h2>Specialty</h2>
-            <p className="liquorTitle">Miller Lite</p>
-            <p className="liquorPrice">$11.75</p>
-            <p className="liquorTitle">Miller High Life</p>
-            <p className="liquorPrice">$12.75</p>
-            <p className="liquorTitle">SMIRNOFF ICE</p>
-            <p className="liquorPrice">$13.00</p>
-            <p className="liquorTitle">Murphy’s Irish Stout</p>
-            <p className="liquorPrice">$13.25</p>
-            <p className="liquorTitle">Molson Ultra</p>
-            <p className="liquorPrice">$11.75</p>
-            <p className="liquorTitle">Glutenberg Blonde</p>
-            <p className="liquorPrice">$13.25</p>
-            <p className="liquorTitle">
-              Coors Edge <br />
-              Non-Alcoholic Beer
-            </p>
-            <p className="liquorPrice">$7.50</p>
           </Liquor>
         </DraughtDeck>
-        <p>PRICES EXCLUDE ALL APPLICABLE TAXES</p>
+        <p className="notes">Prices exclude all applicable taxes</p>
         &nbsp;
         <div
           role="button"
