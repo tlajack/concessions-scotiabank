@@ -237,7 +237,7 @@ const CherryPage = () => {
           <StaticImage
             className="menuPhoto"
             src="../images/CherrySt-7.jpg"
-            alt="Prime"
+            alt="Brisket Sandwich"
           />
           <h2>Brisket Sandwich</h2>
           <p className="price">18.00</p>
@@ -252,7 +252,7 @@ const CherryPage = () => {
           <StaticImage
             className="menuPhoto"
             src="../images/CherrySt-2.jpg"
-            alt="Prime"
+            alt="Pulled Pork Sandwich"
           />
           <h2>Pulled Pork Sandwich</h2>
           <p className="price">16.00</p>
@@ -267,7 +267,7 @@ const CherryPage = () => {
           <StaticImage
             className="menuPhoto"
             src="../images/CherrySt-3.jpg"
-            alt="Prime"
+            alt="Cherry Street Smoked Chicken Wings"
           />
           <h2>Cherry Street Smoked Chicken&nbsp;Wings</h2>
           <p className="price">16.00</p>
@@ -282,7 +282,7 @@ const CherryPage = () => {
           <StaticImage
             className="menuPhoto"
             src="../images/CherrySt-4.jpg"
-            alt="Prime"
+            alt="Smoked Pork Riblets"
           />
           <h2>Smoked Pork Riblets</h2>
           <p className="price">15.00</p>
@@ -294,7 +294,7 @@ const CherryPage = () => {
           <StaticImage
             className="menuPhoto"
             src="../images/CherrySt-5.jpg"
-            alt="Prime"
+            alt="Burnt End Chili Cheese Fries"
           />
           <h2>Burnt End Chili Cheese Fries</h2>
           <p className="price">14.00</p>
@@ -308,7 +308,7 @@ const CherryPage = () => {
           <StaticImage
             className="menuPhoto"
             src="../images/CherrySt-6.jpg"
-            alt="Prime"
+            alt="Frito Pie"
           />
           <h2>Frito Pie</h2>
           <p className="price">9.00</p>
@@ -369,7 +369,7 @@ const CherryPage = () => {
           <StaticImage
             className="logo"
             src="../images/draughtDeck.png"
-            alt="A kitten"
+            alt="Molson Draughdeck logo"
           />
           <p className="notes">
             You must be 19 years of age or older to purchase and consume
@@ -378,7 +378,7 @@ const CherryPage = () => {
           </p>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-01.png" alt="Drink" />
+              <StaticImage src="../images/drink-01.png" alt="Molson Canadian" />
             </div>
             <div>
               <h1>Molson Canadian</h1>
@@ -396,7 +396,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-01a.png" alt="Drink" />
+              <StaticImage src="../images/drink-01a.png" alt="Coors Light" />
             </div>
             <div>
               <h1>Coors Light</h1>
@@ -414,7 +414,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-02.png" alt="Drink" />
+              <StaticImage src="../images/drink-02.png" alt="Coors Original" />
             </div>
             <div>
               <h1>Coors Original</h1>
@@ -432,7 +432,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-03.png" alt="Drink" />
+              <StaticImage src="../images/drink-03.png" alt="BELGIAN MOON" />
             </div>
             <div>
               <h1>BELGIAN MOON</h1>
@@ -450,7 +450,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-04.png" alt="Drink" />
+              <StaticImage src="../images/drink-04.png" alt="Hop Valley IPA" />
             </div>
             <div>
               <h1>Hop Valley IPA</h1>
@@ -468,7 +468,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-05.png" alt="Drink" />
+              <StaticImage src="../images/drink-05.png" alt="CREEMORE LAGER" />
             </div>
             <div>
               <h1>CREEMORE LAGER</h1>
@@ -486,7 +486,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-06.png" alt="Drink" />
+              <StaticImage src="../images/drink-06.png" alt="CREEMORE IPA" />
             </div>
             <div>
               <h1>CREEMORE IPA</h1>
@@ -504,7 +504,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-07.png" alt="Drink" />
+              <StaticImage src="../images/drink-07.png" alt="Coors Organic" />
             </div>
             <div>
               <h1>Coors Organic</h1>
@@ -516,7 +516,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-08.png" alt="Drink" />
+              <StaticImage src="../images/drink-08.png" alt="Sol" />
             </div>
             <div>
               <h1>Sol</h1>
@@ -528,7 +528,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-09.png" alt="Drink" />
+              <StaticImage src="../images/drink-09.png" alt="HEINEKEN" />
             </div>
             <div>
               <h1>HEINEKEN</h1>
@@ -540,7 +540,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-10.png" alt="Drink" />
+              <StaticImage src="../images/drink-10.png" alt="strongbow cider" />
             </div>
             <div>
               <h1>strongbow cider</h1>
@@ -552,7 +552,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-11.png" alt="Drink" />
+              <StaticImage src="../images/drink-11.png" alt="Vizzy" />
             </div>
             <div>
               <h1>Vizzy</h1>
@@ -564,7 +564,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-12.png" alt="Drink" />
+              <StaticImage src="../images/drink-12.png" alt="Rickard’s Red" />
             </div>
             <div>
               <h1>Rickard’s Red</h1>
@@ -576,7 +576,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-13.png" alt="Drink" />
+              <StaticImage src="../images/drink-13.png" alt="Miller Lite" />
             </div>
             <div>
               <h1>Miller Lite</h1>
@@ -588,7 +588,10 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-14.png" alt="Drink" />
+              <StaticImage
+                src="../images/drink-14.png"
+                alt="Miller High Life"
+              />
             </div>
             <div>
               <h1>Miller High Life</h1>
@@ -600,7 +603,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-15.png" alt="Drink" />
+              <StaticImage src="../images/drink-15.png" alt="Smirnoff Ice" />
             </div>
             <div>
               <h1>Smirnoff Ice</h1>
@@ -612,7 +615,10 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-16.png" alt="Drink" />
+              <StaticImage
+                src="../images/drink-16.png"
+                alt="Murphy’s Irish Stout"
+              />
             </div>
             <div>
               <h1>Murphy’s Irish Stout</h1>
@@ -624,7 +630,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-17.png" alt="Drink" />
+              <StaticImage src="../images/drink-17.png" alt="Molson Ultra" />
             </div>
             <div>
               <h1>Molson Ultra</h1>
@@ -636,7 +642,10 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-18.png" alt="Drink" />
+              <StaticImage
+                src="../images/drink-18.png"
+                alt="Glutenberg Blonde"
+              />
             </div>
             <div>
               <h1>Glutenberg Blonde</h1>
@@ -648,7 +657,7 @@ const CherryPage = () => {
           </Drinks>
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-19.png" alt="Drink" />
+              <StaticImage src="../images/drink-19.png" alt="Coors Edge" />
             </div>
             <div>
               <h1>Coors Edge</h1>
@@ -664,7 +673,7 @@ const CherryPage = () => {
 
           <Drinks>
             <div>
-              <StaticImage src="../images/drink-20.png" alt="Drink" />
+              <StaticImage src="../images/drink-20.png" alt="Lemon Zinger" />
             </div>
             <div>
               <h1>Lemon Zinger</h1>
