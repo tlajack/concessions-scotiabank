@@ -128,6 +128,11 @@ const DraughtDeck = styled.div`
   color: black;
   .notes {
     margin: 0 1em;
+    font-size: 1em;
+  }
+
+  .centered {
+    text-align: center;
   }
 `;
 
@@ -371,7 +376,7 @@ const CherryPage = () => {
             src="../images/draughtDeck.png"
             alt="Molson Draughdeck logo"
           />
-          <p className="notes">
+          <p className="notes centered">
             You must be 19 years of age or older to purchase and consume
             alcohol. Please have your ID ready. Scotiabank Arena has a 2-drink
             limit.
@@ -555,7 +560,7 @@ const CherryPage = () => {
               <StaticImage src="../images/drink-11.png" alt="Vizzy" />
             </div>
             <div>
-              <h1>Vizzy</h1>
+              <h1>Vizzy Hard Seltzer</h1>
               <div className="description">
                 <p className="drinkType">TALL CAN</p>
                 <p className="drinkPrice">$13.00</p>
@@ -669,7 +674,7 @@ const CherryPage = () => {
               </div>
             </div>
           </Drinks>
-          <h1 className="sectionTitle">Liquor</h1>
+          <h1 className="sectionTitle">Signature Cocktails</h1>
 
           <Drinks>
             <div>
@@ -679,7 +684,7 @@ const CherryPage = () => {
               <h1>Lemon Zinger</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  CȊROC Vodka, Ginger Beer, Lemonade, Lemon
+                  1.5oz CȊROC Vodka, Ginger Beer, Lemonade, Lemon
                 </p>
                 <p className="drinkPrice">$17.75</p>
               </div>
@@ -693,7 +698,7 @@ const CherryPage = () => {
               <h1>Peach Punch</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  CȊROC Peach, Cranberry Juice, Orange Juice, Lime
+                  1.5oz CȊROC Peach, Cranberry Juice, Orange Juice, Lime
                 </p>
                 <p className="drinkPrice">$17.75</p>
               </div>
@@ -707,7 +712,7 @@ const CherryPage = () => {
               <h1>Buzzer Beater</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  Smirnoff Vodka, Watermelon Red Bull, Lime
+                  1.5oz Smirnoff Vodka, Watermelon Red Bull, Lime
                 </p>
                 <p className="drinkPrice">$17.75</p>
               </div>
@@ -721,14 +726,15 @@ const CherryPage = () => {
               <h1>Citrus Sling</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  Seedlip, Non-Alcoholic Spirits, Lemonade, Tonic, Lemon
+                  Seedlip Non-Alcoholic Spirits, Lemonade, Tonic, Lemon
                 </p>
-                <p className="drinkPrice">$17.75</p>
+                <p className="drinkPrice">$15.75</p>
               </div>
             </div>
           </Drinks>
           <hr />
           <Liquor>
+            <h1 className="sectionTitle">Liquor</h1>
             <p className="liquorTitle">PREMIUM</p>
             <p className="liquorPrice">
               1oz - $11.00
