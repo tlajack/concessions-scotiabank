@@ -712,9 +712,13 @@ const CherryPage = () => {
               <h1>Buzzer Beater</h1>
               <div className="description">
                 <p className="drinkType wide">
-                  1.5oz Smirnoff Vodka, Watermelon Red Bull, Lime
+                  Smirnoff Vodka, Watermelon Red Bull, Lime
                 </p>
-                <p className="drinkPrice">$17.75</p>
+                <p className="drinkPrice">
+                  1oz&emsp;$15.75
+                  <br />
+                  2oz&emsp;$24.50
+                </p>
               </div>
             </div>
           </Drinks>
@@ -732,7 +736,6 @@ const CherryPage = () => {
               </div>
             </div>
           </Drinks>
-          <hr />
           <Liquor>
             <h1 className="sectionTitle">Liquor</h1>
             <p className="liquorTitle">PREMIUM</p>
