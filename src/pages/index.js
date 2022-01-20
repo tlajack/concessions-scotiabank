@@ -19,7 +19,7 @@ const IndexPage = () => {
           <a href="/draughtdeck">Molson Draught Deck</a>
         </li>
         <li>
-          <a href="/specialty">Specialty Offerings </a>
+          <a href="/specialty-food">Specialty Offerings </a>
         </li>
       </ul>
     </Layout>
