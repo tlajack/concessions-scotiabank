@@ -223,7 +223,7 @@ const SpecialtyPage = () => {
                 (exclude bun) served with GF potato chips
               </p>
               <p>
-                <strong>EDO Sushi</strong> – Made to order upon request
+                <strong>EDO</strong> – Made to order upon request
               </p>
             </div>
           </div>
@@ -239,16 +239,15 @@ const SpecialtyPage = () => {
                 pasta){" "}
               </p>
               <p>
-                <strong>EDO Sushi (Section 104)</strong> – Made to order upon
-                request
+                <strong>EDO (Section 104)</strong> – Made to order upon request
               </p>
               <p>
                 <strong>Hot Stove Carve (Section 117)</strong> – Carved Prime
                 Rib or Turkey (exclude bun), served with GF potato chips
               </p>
               <p>
-                <strong>Porchetta & Co. (Section 120)</strong> – Porchetta
-                Sandwich (exclude bun)
+                <strong>Porchetta & Co. (Section 120)</strong> – House Special
+                Porchetta Sandwich (exclude bun)
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> – Fries,
@@ -322,8 +321,7 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>EDO Sushi</strong> – Spicy Vegetarian Maki, Vegetarian
-                Maki
+                <strong>EDO</strong> – Spicy Vegetarian Maki, Vegetarian Maki
               </p>
               <p>
                 <strong>Aloette</strong> – Aloette Wedge Salad
@@ -344,8 +342,8 @@ const SpecialtyPage = () => {
                 Grilled Cheese, Classic Mac & Cheese, Bianco Mac & Cheese
               </p>
               <p>
-                <strong>EDO Sushi (Section 104)</strong> – Spicy Vegetarian
-                Maki, Vegetarian Maki
+                <strong>EDO (Section 104)</strong> – Spicy Vegetarian Maki,
+                Vegetarian Maki
               </p>
               <p>
                 <strong>Food Junction (Section 107, 121)</strong> – Fries, Nacho
@@ -428,8 +426,7 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>EDO Sushi</strong> – Vegan options available upon
-                request
+                <strong>EDO</strong> – Vegan options available upon request
               </p>
             </div>
           </div>
@@ -443,8 +440,8 @@ const SpecialtyPage = () => {
                 (with falafel), other Vegan options available
               </p>
               <p>
-                <strong>EDO Sushi (Section 104)</strong> – Vegan options
-                available upon request
+                <strong>EDO (Section 104)</strong> – Vegan options available
+                upon request
               </p>
               <p>
                 <strong>Leela’s Roti & Doubles (Section 110)</strong> – Channa &
