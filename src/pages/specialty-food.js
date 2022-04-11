@@ -234,9 +234,9 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Mac & Cheese Boutique (Section 103)</strong> – Classic
-                Mac & Cheese (request GF pasta), Bianco Mac & Cheese (request GF
-                pasta){" "}
+                <strong>Mac &amp; Cheese Boutique (Section 103)</strong> –
+                Classic Mac &amp; Cheese (request GF pasta), Bianco Mac &amp;
+                Cheese (request GF pasta)
               </p>
               <p>
                 <strong>EDO (Section 104)</strong> – Made to order upon request
@@ -246,19 +246,20 @@ const SpecialtyPage = () => {
                 Rib or Turkey (exclude bun), served with GF potato chips
               </p>
               <p>
-                <strong>Porchetta & Co. (Section 120)</strong> – House Special
-                Porchetta Sandwich (exclude bun)
+                <strong>Porchetta &amp; Co. (Section 120)</strong> – House
+                Special Porchetta Sandwich (exclude bun)
               </p>
               <p>
-                <strong>Poutinerie/Pizza Pizza (Section 120)</strong> – Fries,
-                Garlic Fries
+                <strong>Poutinerie/Pizza Pizza (Section 120)</strong> – Fries
+                (request GF fries), Garlic Fries (request GF fries), Carne Asada
+                Poutine (request GF fries)
               </p>
               <p>
                 <strong>St. Patties (Section 122)</strong> – Cheese Please
                 Burger (request GF bun), Maple Bacon Burger (exclude onion
                 straws, request GF bun), Brazen Beef Burger (exclude onion
-                straws, request GF bun), Mushroom & Arugula Burger (request GF
-                bun)
+                straws, request GF bun), Mushroom &amp; Arugula Burger (request
+                GF bun)
               </p>
             </div>
           </div>
@@ -279,7 +280,9 @@ const SpecialtyPage = () => {
                 Rib or Turkey (exclude bun) served with GF potato chips
               </p>
               <p>
-                <strong>Poutinerie (Section 322)</strong> – Fries, Garlic Fries
+                <strong>Poutinerie (Section 322)</strong> – Fries (request GF
+                fries), Garlic Fries (request GF fries), Carne Asada Poutine
+                (request GF fries)
               </p>
             </div>
           </div>
@@ -289,7 +292,7 @@ const SpecialtyPage = () => {
             <div className="content">
               <p>
                 <strong>Gluten Friendly Snacks</strong> — Popcorn, Nachos
-                (exclude cheese), M&M Peanuts
+                (exclude cheese), M&amp;M Peanuts
               </p>
               <p>
                 <strong>Strongbow Cider</strong> is available at most bars and
@@ -338,8 +341,9 @@ const SpecialtyPage = () => {
                 available
               </p>
               <p>
-                <strong>Mac & Cheese Boutique (Section 103)</strong> – Classic
-                Grilled Cheese, Classic Mac & Cheese, Bianco Mac & Cheese
+                <strong>Mac &amp; Cheese Boutique (Section 103)</strong> –
+                Classic Grilled Cheese, Classic Mac &amp; Cheese, Bianco Mac
+                &amp; Cheese
               </p>
               <p>
                 <strong>EDO (Section 104)</strong> – Spicy Vegetarian Maki,
@@ -350,8 +354,8 @@ const SpecialtyPage = () => {
                 Fries
               </p>
               <p>
-                <strong>Leela’s Roti & Doubles (Section 110)</strong> – Channa &
-                Potato Roti, Doubles
+                <strong>Leela’s Roti &amp; Doubles (Section 110)</strong> –
+                Channa &amp; Potato Roti, Doubles
               </p>
               <p>
                 <strong>Pizza Pizza (Section 111, Section 120)</strong> – Cheese
@@ -359,7 +363,7 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Hogtown (Section 112)</strong> – Vegan Chorizo with
-                Salsa & Avo
+                Salsa &amp; Avo
               </p>
               <p>
                 <strong>Taco Del Norte featuring Colibri (Section 120)</strong>{" "}
@@ -367,8 +371,8 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> – Fries,
-                Fries & Gravy (ask for vegan gravy), Garlic Fries, Mushroom &
-                Arugula Poutine, Super Plant Slice
+                Fries &amp; Gravy (ask for vegan gravy), Garlic Fries, Mushroom
+                &amp; Arugula Poutine, Super Plant Slice
               </p>
             </div>
           </div>
@@ -378,20 +382,20 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Pizza Pizza (Section 307 & 321)</strong> – Cheese Slice,
-                Vegetarian Slice
+                <strong>Pizza Pizza (Section 307 &amp; 321)</strong> – Cheese
+                Slice, Vegetarian Slice
               </p>
               <p>
-                <strong>Hogtown (Section 308 & 320)</strong> – Vegan Chorizo
-                with Salsa & Avo
+                <strong>Hogtown (Section 308 &amp; 320)</strong> – Vegan Chorizo
+                with Salsa &amp; Avo
               </p>
               <p>
-                <strong>Food Junction (Section 311 & 323)</strong> – Fries,
+                <strong>Food Junction (Section 311 &amp; 323)</strong> – Fries,
                 Nacho Fries
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries, Garlic Fries,
-                Mushroom & Arugula Poutine
+                Mushroom &amp; Arugula Poutine
               </p>
             </div>
           </div>
@@ -399,7 +403,7 @@ const SpecialtyPage = () => {
             <div></div>
             <div className="content">
               <p>
-                <strong>Vegetarian Snacks</strong> – Nachos, Popcorn, M&M
+                <strong>Vegetarian Snacks</strong> – Nachos, Popcorn, M&amp;M
                 Peanuts, Mars Bites, Skittles, Salted Pretzel
               </p>
             </div>
@@ -444,12 +448,12 @@ const SpecialtyPage = () => {
                 upon request
               </p>
               <p>
-                <strong>Leela’s Roti & Doubles (Section 110)</strong> – Channa &
-                Potato Roti, Doubles
+                <strong>Leela’s Roti &amp; Doubles (Section 110)</strong> –
+                Channa &amp; Potato Roti, Doubles
               </p>
               <p>
                 <strong>Hogtown (Section 112)</strong> – Vegan Chorizo with
-                Salsa & Avo
+                Salsa &amp; Avo
               </p>
               <p>
                 <strong>Taco Del Norte featuring Colibri (Section 120)</strong>{" "}
@@ -457,11 +461,11 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> – Fries,
-                Mushroom & Arugula Poutine, Super Plant Slice
+                Mushroom &amp; Arugula Poutine, Super Plant Slice
               </p>
               <p>
-                <strong>St. Patties (Section 122)</strong> – Mushroom & Arugula
-                Burger
+                <strong>St. Patties (Section 122)</strong> – Mushroom &amp;
+                Arugula Burger
               </p>
             </div>
           </div>
@@ -471,12 +475,12 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Hogtown (Section 308 & 320)</strong> – Vegan Chorizo
-                with Salsa & Avo
+                <strong>Hogtown (Section 308 &amp; 320)</strong> – Vegan Chorizo
+                with Salsa &amp; Avo
               </p>
               <p>
-                <strong>Poutinerie (Section 322)</strong> – Fries, Mushroom &
-                Arugula Poutine
+                <strong>Poutinerie (Section 322)</strong> – Fries, Mushroom
+                &amp; Arugula Poutine
               </p>
             </div>
           </div>
@@ -526,7 +530,7 @@ const SpecialtyPage = () => {
                 Tots
               </p>
               <p>
-                <strong>Noodle Bao (Section 106)</strong> – Stir Fry Beef &
+                <strong>Noodle Bao (Section 106)</strong> – Stir Fry Beef &amp;
                 Broccoli Noodles, Ginger Beef Bao, Thai Peanut Chicken Noodles
               </p>
               <p>
@@ -534,9 +538,9 @@ const SpecialtyPage = () => {
                 Rib served with potato chips
               </p>
               <p>
-                <strong>Leela’s Roti & Doubles (Section 110)</strong> – Curry
-                Beef Roti, Butter Chicken Roti, Jerk Chicken Roti, Channa &
-                Potato Roti, Doubles
+                <strong>Leela’s Roti &amp; Doubles (Section 110)</strong> –
+                Curry Beef Roti, Butter Chicken Roti, Jerk Chicken Roti, Channa
+                &amp; Potato Roti, Doubles
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> –
