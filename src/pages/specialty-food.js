@@ -390,8 +390,12 @@ const SpecialtyPage = () => {
                 with Salsa &amp; Avo
               </p>
               <p>
-                <strong>Food Junction (Section 311 &amp; 323)</strong> – Fries,
-                Nacho Fries, Plant-Based Hot Dog
+                <strong>Food Junction (Section 311)</strong> – Fries, Nacho
+                Fries
+              </p>
+              <p>
+                <strong>Food Junction (Section 323)</strong> – Fries, Nacho
+                Fries, Plant-Based Hot Dog
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries, Garlic Fries,
