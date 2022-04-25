@@ -351,7 +351,7 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Food Junction (Section 107, 121)</strong> – Fries, Nacho
-                Fries
+                Fries, Plant-Based Hot Dog
               </p>
               <p>
                 <strong>Leela’s Roti &amp; Doubles (Section 110)</strong> –
@@ -391,7 +391,7 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Food Junction (Section 311 &amp; 323)</strong> – Fries,
-                Nacho Fries
+                Nacho Fries, Plant-Based Hot Dog
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries, Garlic Fries,
@@ -467,6 +467,10 @@ const SpecialtyPage = () => {
                 <strong>St. Patties (Section 122)</strong> – Mushroom &amp;
                 Arugula Burger
               </p>
+              <p>
+                <strong>Food Junction (Section 107, 121)</strong> – Plant-Based
+                Hot Dog
+              </p>
             </div>
           </div>
           <div className="eventGrid">
@@ -481,6 +485,10 @@ const SpecialtyPage = () => {
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries, Mushroom
                 &amp; Arugula Poutine
+              </p>
+              <p>
+                <strong>Food Junction (Section 323)</strong> – Plant-Based Hot
+                Dog
               </p>
             </div>
           </div>
