@@ -219,11 +219,11 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Hot Stove Carve</strong> – Carved Prime Rib or Turkey
-                (exclude bun) served with GF potato chips
+                <strong>Hot Stove Carve</strong> – Carved Prime (exclude bun)
+                served with GF potato chips
               </p>
               <p>
-                <strong>EDO</strong> – Made to order upon request
+                <strong>EDO Sushi</strong> – Made to order upon request
               </p>
             </div>
           </div>
@@ -239,11 +239,12 @@ const SpecialtyPage = () => {
                 Cheese (request GF pasta)
               </p>
               <p>
-                <strong>EDO (Section 104)</strong> – Made to order upon request
+                <strong>EDO Sushi (Section 104)</strong> – Made to order upon
+                request
               </p>
               <p>
                 <strong>Hot Stove Carve (Section 117)</strong> – Carved Prime
-                Rib or Turkey (exclude bun), served with GF potato chips
+                Rib (exclude bun), served with GF potato chips
               </p>
               <p>
                 <strong>Porchetta &amp; Co. (Section 120)</strong> – House
@@ -251,15 +252,12 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> – Fries
-                (request GF fries), Garlic Fries (request GF fries), Carne Asada
-                Poutine (request GF fries)
+                (request GF fries)
               </p>
               <p>
                 <strong>St. Patties (Section 122)</strong> – Cheese Please
-                Burger (request GF bun), Maple Bacon Burger (exclude onion
-                straws, request GF bun), Brazen Beef Burger (exclude onion
-                straws, request GF bun), Mushroom &amp; Arugula Burger (request
-                GF bun)
+                Burger (request GF bun), Brazen Beef Burger (exclude onion
+                straws, request GF bun)
               </p>
             </div>
           </div>
@@ -277,12 +275,11 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Hot Stove Carve (Section 318)</strong> – Carved Prime
-                Rib or Turkey (exclude bun) served with GF potato chips
+                Rib (exclude bun) served with GF potato chips
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries (request GF
-                fries), Garlic Fries (request GF fries), Carne Asada Poutine
-                (request GF fries)
+                fries)
               </p>
             </div>
           </div>
@@ -291,20 +288,20 @@ const SpecialtyPage = () => {
             <div></div>
             <div className="content">
               <p>
-                <strong>Gluten Friendly Snacks</strong> — Popcorn, Nachos
-                (exclude cheese), M&amp;M Peanuts
+                <strong>Gluten Friendly Snacks</strong> — Popcorn, M&amp;M
+                Peanuts
               </p>
               <p>
                 <strong>Strongbow Cider</strong> is available at most bars and
                 beer kiosks
               </p>
-              <p>
+              {/* <p>
                 <strong>Glutenberg Blonde Lager</strong> is available at World
                 Class Bar on the Event Level, Molson Brewhouse at Section 108,
                 Suds In The Six at Section 116 and Draught Deck at Section 314,
                 as well as at bars located at Section 104, Section 118, Section
                 311 and Section 323
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -324,7 +321,8 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>EDO</strong> – Spicy Vegetarian Maki, Vegetarian Maki
+                <strong>EDO Sushi</strong> – Spicy Vegetarian Maki, Vegetarian
+                Maki
               </p>
               <p>
                 <strong>Aloette</strong> – Aloette Wedge Salad
@@ -337,8 +335,8 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Freshii (Section 101)</strong> – Vegetarian options
-                available
+                <strong>Grains &amp; Greens (Section 101)</strong> – Vegetarian
+                options available
               </p>
               <p>
                 <strong>Mac &amp; Cheese Boutique (Section 103)</strong> –
@@ -346,33 +344,32 @@ const SpecialtyPage = () => {
                 &amp; Cheese
               </p>
               <p>
-                <strong>EDO (Section 104)</strong> – Spicy Vegetarian Maki,
-                Vegetarian Maki
+                <strong>EDO Sushi (Section 104)</strong> – Spicy Vegetarian
+                Maki, Vegetarian Maki
               </p>
               <p>
                 <strong>Food Junction (Section 107, 121)</strong> – Fries, Nacho
                 Fries, Plant-Based Hot Dog
               </p>
               <p>
-                <strong>Leela’s Roti &amp; Doubles (Section 110)</strong> –
-                Channa &amp; Potato Roti, Doubles
+                <strong>Wicked Carib &amp; Doubles (Section 110)</strong> – Jerk
+                Fritter Roti, Jerk Fritters
               </p>
               <p>
                 <strong>Pizza Pizza (Section 111, Section 120)</strong> – Cheese
                 Slice, Vegetarian Slice
               </p>
               <p>
-                <strong>Hogtown (Section 112)</strong> – Vegan Chorizo with
-                Salsa &amp; Avo
+                <strong>Hogtown (Section 112)</strong> – Plant-Based Hot Dog
               </p>
               <p>
-                <strong>Taco Del Norte featuring Colibri (Section 120)</strong>{" "}
-                – Mushroom Al Pastor, Nachos Los Colibris
+                <strong>Tecolote (Section 120)</strong> – Mushroom Al Pastor
+                Tacos, Nachos Tecolote
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> – Fries,
-                Fries &amp; Gravy (ask for vegan gravy), Garlic Fries, Mushroom
-                &amp; Arugula Poutine, Super Plant Slice
+                Fries &amp; Gravy (ask for vegan gravy), Vegan Mushroom Poutine,
+                Bruschetta Pizza Slice
               </p>
             </div>
           </div>
@@ -386,8 +383,8 @@ const SpecialtyPage = () => {
                 Slice, Vegetarian Slice
               </p>
               <p>
-                <strong>Hogtown (Section 308 &amp; 320)</strong> – Vegan Chorizo
-                with Salsa &amp; Avo
+                <strong>Hogtown (Section 308 &amp; 320)</strong> – Plant-Based
+                Hot Dog
               </p>
               <p>
                 <strong>Food Junction (Section 311)</strong> – Fries, Nacho
@@ -395,11 +392,11 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Food Junction (Section 323)</strong> – Fries, Nacho
-                Fries, Plant-Based Hot Dog
+                Fries
               </p>
               <p>
-                <strong>Poutinerie (Section 322)</strong> – Fries, Garlic Fries,
-                Mushroom &amp; Arugula Poutine
+                <strong>Poutinerie (Section 322)</strong> – Fries, Vegan
+                Mushroom Poutine
               </p>
             </div>
           </div>
@@ -408,7 +405,7 @@ const SpecialtyPage = () => {
             <div className="content">
               <p>
                 <strong>Vegetarian Snacks</strong> – Nachos, Popcorn, M&amp;M
-                Peanuts, Mars Bites, Skittles, Salted Pretzel
+                Peanuts, Skittles, Salted Pretzel
               </p>
             </div>
           </div>
@@ -434,7 +431,8 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>EDO</strong> – Vegan options available upon request
+                <strong>EDO Sushi</strong> – Vegan options available upon
+                request
               </p>
             </div>
           </div>
@@ -444,32 +442,30 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Freshii (Section 101)</strong> – Teriyaki Twist Bowl
-                (with falafel), other Vegan options available
+                <strong>Grains &amp; Greens (Section 101)</strong> – other Vegan
+                options available
               </p>
               <p>
-                <strong>EDO (Section 104)</strong> – Vegan options available
-                upon request
+                <strong>EDO Sushi (Section 104)</strong> – Vegan options
+                available upon request
               </p>
               <p>
-                <strong>Leela’s Roti &amp; Doubles (Section 110)</strong> –
-                Channa &amp; Potato Roti, Doubles
+                <strong>Wicked Carib &amp; Doubles (Section 110)</strong> – Jerk
+                Fritter Roti, Jerk Fritters
               </p>
               <p>
-                <strong>Hogtown (Section 112)</strong> – Vegan Chorizo with
-                Salsa &amp; Avo
+                <strong>Hogtown (Section 112)</strong> – Plant-Based Hot Dog
               </p>
               <p>
-                <strong>Taco Del Norte featuring Colibri (Section 120)</strong>{" "}
-                – Nachos Los Colibris (exclude cheese), Mushroom Al Pastor
+                <strong>TECOLOTE (Section 120)</strong> – Nachos Tecolote
+                (exclude cheese), Mushroom Al Pastor Tacos
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> – Fries,
-                Mushroom &amp; Arugula Poutine, Super Plant Slice
+                Vegan Mushroom Poutine
               </p>
               <p>
-                <strong>St. Patties (Section 122)</strong> – Mushroom &amp;
-                Arugula Burger
+                <strong>St. Patties (Section 122)</strong> – Vegan Burger
               </p>
               <p>
                 <strong>Food Junction (Section 107, 121)</strong> – Plant-Based
@@ -483,12 +479,12 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Hogtown (Section 308 &amp; 320)</strong> – Vegan Chorizo
-                with Salsa &amp; Avo
+                <strong>Hogtown (Section 308 &amp; 320)</strong> – Plant-Based
+                Hot Dog
               </p>
               <p>
-                <strong>Poutinerie (Section 322)</strong> – Fries, Mushroom
-                &amp; Arugula Poutine
+                <strong>Poutinerie (Section 322)</strong> – Fries, Vegan
+                Mushroom Poutine
               </p>
               <p>
                 <strong>Food Junction (Section 323)</strong> – Plant-Based Hot
@@ -542,17 +538,17 @@ const SpecialtyPage = () => {
                 Tots
               </p>
               <p>
-                <strong>Noodle Bao (Section 106)</strong> – Stir Fry Beef &amp;
-                Broccoli Noodles, Ginger Beef Bao, Thai Peanut Chicken Noodles
+                <strong>Noodle Bao (Section 106)</strong> – Thai Peanut Chicken
+                Noodles
               </p>
               <p>
                 <strong>Hot Stove Carve (Section 117)</strong> – Carved Prime
                 Rib served with potato chips
               </p>
               <p>
-                <strong>Leela’s Roti &amp; Doubles (Section 110)</strong> –
-                Curry Beef Roti, Butter Chicken Roti, Jerk Chicken Roti, Channa
-                &amp; Potato Roti, Doubles
+                <strong>Wicked Carib (Section 110)</strong> – Curry Beef Roti,
+                Jerk Chicken Roti, Jerk Chicken Sandwich, Jerk Fritter Roti,
+                Jerk Fritters
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> –
