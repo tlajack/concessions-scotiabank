@@ -315,6 +315,7 @@ const CherryPage = () => {
           <p className="price">15.00</p>
           <div className="description">
             <p>Fresh Cut Fries, Brisket Chili and Cheddar Queso Sauce</p>
+            <p>Add Fries to any order for $5.00</p>
           </div>
         </MenuItem>
         <p className="notes">Prices exclude all applicable taxes</p>
@@ -508,6 +509,31 @@ const CherryPage = () => {
               </div>
             </div>
           </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-17.png" alt="Molson Ultra" />
+            </div>
+            <div>
+              <h1>Molson Ultra</h1>
+              <div className="description">
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$12.25</p>
+              </div>
+            </div>
+          </Drinks>
+
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-13.png" alt="Miller Lite" />
+            </div>
+            <div>
+              <h1>Miller Lite</h1>
+              <div className="description">
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$12.25</p>
+              </div>
+            </div>
+          </Drinks>
 
           <Drinks>
             <div>
@@ -593,19 +619,6 @@ const CherryPage = () => {
               </div>
             </div>
           </Drinks>
-
-          <Drinks>
-            <div>
-              <StaticImage src="../images/drink-13.png" alt="Miller Lite" />
-            </div>
-            <div>
-              <h1>Miller Lite</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$12.25</p>
-              </div>
-            </div>
-          </Drinks>
           {/* <Drinks>
             <div>
               <StaticImage
@@ -648,19 +661,8 @@ const CherryPage = () => {
               </div>
             </div>
           </Drinks>
-          <Drinks>
-            <div>
-              <StaticImage src="../images/drink-17.png" alt="Molson Ultra" />
-            </div>
-            <div>
-              <h1>Molson Ultra</h1>
-              <div className="description">
-                <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$12.25</p>
-              </div>
-            </div>
-          </Drinks>
-          <Drinks>
+
+          {/* <Drinks>
             <div>
               <StaticImage
                 src="../images/drink-18.png"
@@ -674,7 +676,7 @@ const CherryPage = () => {
                 <p className="drinkPrice">$13.75</p>
               </div>
             </div>
-          </Drinks>
+          </Drinks> */}
           <Drinks>
             <div>
               <StaticImage src="../images/drink-19.png" alt="Coors Edge" />
@@ -730,7 +732,7 @@ const CherryPage = () => {
                   Smirnoff Vodka, Watermelon Red Bull, Lime
                 </p>
                 <p className="drinkPrice">
-                  1oz&emsp;$16.50
+                  1oz&emsp;$17.00
                   <br />
                   2oz&emsp;$26.00
                 </p>
@@ -782,7 +784,8 @@ const CherryPage = () => {
             <p className="liquorTitle">HOUSE</p>
             <p>
               <em>
-                FOLONARI PINOT GRIGIO &amp; YELLOW TAIL CABERNET SAUVIGNON
+                FOLONARI PINOT GRIGIO <br />
+                YELLOW TAIL CABERNET SAUVIGNON
               </em>
             </p>
             <p className="liquorPrice">
@@ -793,7 +796,8 @@ const CherryPage = () => {
             <p className="liquorTitle">PREMIUM</p>
             <p>
               <em>
-                VILLA MARIA SAUVIGNON BLANC &amp; THE SHOW CABERNET SAUVIGNON
+                VILLA MARIA SAUVIGNON BLANC <br />
+                THE SHOW CABERNET SAUVIGNON
               </em>
             </p>
             <p className="liquorPrice">
