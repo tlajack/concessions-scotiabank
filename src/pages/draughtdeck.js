@@ -236,6 +236,9 @@ const CherryPage = () => {
               Hand Carved AAA Prime Rib Sandwich served on a Fresh Onion Bun
               with Kettle Chips
             </p>
+            <p>
+              ​👉 <strong>Add Fries for $5.00</strong>
+            </p>
           </div>
         </MenuItem>
         <MenuItem>
@@ -251,6 +254,9 @@ const CherryPage = () => {
               Texas Style Beef Brisket smoked over white oak, Pickles, Onions
               and House BBQ sauce on a Toasted Potato Scallion Bun
             </p>
+            <p>
+              ​👉 <strong>Add Fries for $5.00</strong>
+            </p>
           </div>
         </MenuItem>
         <MenuItem>
@@ -261,7 +267,16 @@ const CherryPage = () => {
           />
           <h2>Cherry Street Double Stack Burger</h2>
           <p className="price">18.00</p>
-          <div className="description"></div>
+          <div className="description">
+            <p>
+              Two 4oz USDA Prime Brisket Patties, Lettuce, Tomato, Onion,
+              Pickles, Cherry Street Special Sauce on a Toasted Potato Scallion
+              Roll
+            </p>
+            <p>
+              ​👉 <strong>Add Fries for $5.00</strong>
+            </p>
+          </div>
         </MenuItem>
         <MenuItem>
           <StaticImage
@@ -275,6 +290,9 @@ const CherryPage = () => {
             <p>
               Slow Smoked Pork Shoulder, Slaw, Pickle and BBQ Sauce on a Toasted
               Potato Scallion Bun
+            </p>
+            <p>
+              ​👉 <strong>Add Fries for $5.00</strong>
             </p>
           </div>
         </MenuItem>
@@ -291,6 +309,9 @@ const CherryPage = () => {
               24hr Brined with your choice of sauce: Regular, Spicy or Dry Rub
               (4 pieces)
             </p>
+            <p>
+              ​👉 <strong>Add Fries for $5.00</strong>
+            </p>
           </div>
         </MenuItem>
         <MenuItem>
@@ -303,6 +324,9 @@ const CherryPage = () => {
           <p className="price">15.50</p>
           <div className="description">
             <p>Slow Smoked Spare Ribs tossed in our Signature Sauce</p>
+            <p>
+              ​👉 <strong>Add Fries for $5.00</strong>
+            </p>
           </div>
         </MenuItem>
         <MenuItem>
@@ -315,7 +339,6 @@ const CherryPage = () => {
           <p className="price">15.00</p>
           <div className="description">
             <p>Fresh Cut Fries, Brisket Chili and Cheddar Queso Sauce</p>
-            <p>Add Fries to any order for $5.00</p>
           </div>
         </MenuItem>
         <p className="notes">Prices exclude all applicable taxes</p>
@@ -344,6 +367,11 @@ const CherryPage = () => {
         <MenuItem>
           <h2>smartwater</h2>
           <p className="price">6.50</p>
+        </MenuItem>
+        <MenuItem>
+          <h2>AHA&nbsp;Sparkling Water</h2>
+          <p className="price">6.50</p>
+          <div className="description"></div>
         </MenuItem>
         <MenuItem>
           <h2>Red Bull</h2>
