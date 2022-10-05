@@ -772,12 +772,15 @@ const CherryPage = () => {
               <StaticImage src="../images/drink-23.png" alt="Citrus Sling" />
             </div>
             <div>
-              <h1>Citrus Sling</h1>
+              <h1>
+                Citrus Sling <br />
+                <small>(mocktail)</small>
+              </h1>
               <div className="description">
                 <p className="drinkType wide">
                   Seedlip Non-Alcoholic Spirits, Lemonade, Tonic, Lemon
                 </p>
-                <p className="drinkPrice">$12.00</p>
+                <p className="drinkPrice">$9.50</p>
               </div>
             </div>
           </Drinks>
