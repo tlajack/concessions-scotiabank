@@ -396,11 +396,11 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Food Junction (Section 311)</strong> – Fries, Nacho
-                Fries
+                Fries, Loaded Nachos
               </p>
               <p>
                 <strong>Food Junction (Section 323)</strong> – Fries, Nacho
-                Fries
+                Fries, Loaded Nachos
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries, Vegan
