@@ -298,13 +298,13 @@ const SpecialtyPage = () => {
                 <strong>Strongbow Cider</strong> is available at most bars and
                 beer kiosks
               </p>
-              {/* <p>
+              <p>
                 <strong>Glutenberg Blonde Lager</strong> is available at World
                 Class Bar on the Event Level, Molson Brewhouse at Section 108,
                 Suds In The Six at Section 116 and Draught Deck at Section 314,
                 as well as at bars located at Section 104, Section 118, Section
                 311 and Section 323
-              </p> */}
+              </p>
             </div>
           </div>
         </div>
