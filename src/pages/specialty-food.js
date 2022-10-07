@@ -225,6 +225,9 @@ const SpecialtyPage = () => {
               <p>
                 <strong>EDO Sushi</strong> – Made to order upon request
               </p>
+              <p>
+                <strong>Aloette</strong> – Wedge Salad
+              </p>
             </div>
           </div>
 
@@ -258,8 +261,8 @@ const SpecialtyPage = () => {
                 <strong>St. Patties (Section 122)</strong> – Cheese Please
                 Burger (request GF bun), Brazen Beef Burger (exclude onion
                 straws, request GF bun), Double Smoked Banquet Burger (request
-                GF Bun), Smokehouse Burger (request GF Bun), Vegan Burger
-                (request GF bun)
+                GF Bun), Smokehouse Burger (request GF Bun, exclude onion
+                straws), Vegan Burger (request GF bun)
               </p>
             </div>
           </div>
@@ -280,10 +283,6 @@ const SpecialtyPage = () => {
               <p>
                 <strong>Hot Stove Carve (Section 318)</strong> – Carved Prime
                 Rib (exclude bun) served with GF potato chips
-              </p>
-              <p>
-                <strong>Poutinerie (Section 322)</strong> – Fries (request GF
-                fries)
               </p>
             </div>
           </div>
@@ -353,7 +352,8 @@ const SpecialtyPage = () => {
                 Maki, Vegetarian Maki
               </p>
               <p>
-                <strong>Noodle Bao (Section 106)</strong> – Mushroom Noodles
+                <strong>Noodle Bao (Section 106)</strong> – Mushroom Noodles,
+                Mushroom Bao
               </p>
               <p>
                 <strong>Food Junction (Section 107, 121)</strong> – Fries, Nacho
@@ -391,12 +391,11 @@ const SpecialtyPage = () => {
                 Slice, Vegetarian Slice
               </p>
               <p>
-                <strong>Hogtown (Section 308 &amp; 320)</strong> – Plant-Based
-                Hot Dog
+                <strong>Hogtown (Section 320)</strong> – Plant-Based Hot Dog
               </p>
               <p>
                 <strong>Food Junction (Section 311)</strong> – Fries, Nacho
-                Fries, Loaded Nachos
+                Fries, Loaded Nachos, Plant-Based Hot Dog
               </p>
               <p>
                 <strong>Food Junction (Section 323)</strong> – Fries, Nacho
@@ -404,7 +403,7 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries, Vegan
-                Mushroom Poutine
+                Mushroom Poutine, Fries &amp; Gravy (ask for vegan gravy)
               </p>
             </div>
           </div>
@@ -418,7 +417,7 @@ const SpecialtyPage = () => {
             </div>
           </div>
         </div>{" "}
-        {/* ########### vegetarian ############*/}
+        {/* ########### vegan ############*/}
         <div className="offerings" id="vegan">
           <div className="title">
             <h3>Vegan</h3>
@@ -491,8 +490,11 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Hogtown (Section 308 &amp; 320)</strong> – Plant-Based
-                Hot Dog
+                <strong>Food Junction (Section 311)</strong> – Plant-Based Hot
+                Dog
+              </p>
+              <p>
+                <strong>Hogtown (Section 320)</strong> – Plant-Based Hot Dog
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries, Vegan
@@ -508,8 +510,7 @@ const SpecialtyPage = () => {
             <div></div>
             <div className="content">
               <p>
-                <strong>Vegan Snacks</strong> – Nachos (exclude cheese), Salted
-                Pretzel
+                <strong>Vegan Snacks</strong> – Salted Pretzel
               </p>
             </div>
           </div>
