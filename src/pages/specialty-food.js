@@ -260,9 +260,9 @@ const SpecialtyPage = () => {
               <p>
                 <strong>St. Patties (Section 122)</strong> – Cheese Please
                 Burger (request GF bun), Brazen Beef Burger (exclude onion
-                straws, request GF bun), Double Smoked Banquet Burger (request
-                GF Bun), Smokehouse Burger (request GF Bun, exclude onion
-                straws), Vegan Burger (request GF bun)
+                straws, request GF bun), Double Smoked Banquet Burger (exclude
+                onion straws, request GF Bun), Smokehouse Burger (request GF
+                Bun, exclude onion straws), Vegan Burger (request GF bun)
               </p>
             </div>
           </div>
