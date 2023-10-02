@@ -350,7 +350,7 @@ const CherryPage = () => {
         <p className="notes">Prices exclude all applicable taxes</p>
         <h1 id="nonalcoholic">NON-ALCOHOLIC</h1>
         <MenuItem>
-          <h2>Collector Cup</h2>
+          <h2>32oz Collector Cup</h2>
           <p className="price">12.00</p>
           <div className="description">
             <p>Coke, Diet Coke, Sprite, Coke Zero Sugar, Fanta</p>
@@ -426,7 +426,7 @@ const CherryPage = () => {
                   725ml - $17.25
                 </p>
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$12.25</p>
+                <p className="drinkPrice">$13.00</p>
               </div>
             </div>
           </Drinks>
@@ -445,7 +445,7 @@ const CherryPage = () => {
                   725ml - $17.25
                 </p>
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$12.25</p>
+                <p className="drinkPrice">$13.00</p>
               </div>
             </div>
           </Drinks>
@@ -569,7 +569,7 @@ const CherryPage = () => {
               <h1>Molson Ultra</h1>
               <div className="description">
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$12.25</p>
+                <p className="drinkPrice">$13.00</p>
               </div>
             </div>
           </Drinks>
@@ -732,7 +732,7 @@ const CherryPage = () => {
               <div className="description">
                 <p className="drinkType">Non-Alcoholic Beer</p>
                 <p className="drinkPrice"></p>
-                <p className="drinkType">TALL CAN</p>
+                <p className="drinkType">330ml CAN</p>
                 <p className="drinkPrice">$8.00</p>
               </div>
             </div>
@@ -815,7 +815,7 @@ const CherryPage = () => {
                 <p className="drinkType wide">
                   Seedlip Non-Alcoholic Spirits, Lemonade, Tonic, Lemon
                 </p>
-                <p className="drinkPrice">$9.50</p>
+                <p className="drinkPrice">$12.00</p>
               </div>
             </div>
           </Drinks>
