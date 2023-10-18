@@ -121,20 +121,11 @@ const Cocktail = () => {
         <div>
           <StaticImage
             className="logo"
-            src="../images/cocktail-citrus.png"
-            alt="Citrus Sling"
+            src="../images/cocktail-mango.png"
+            alt="Mango Tango"
           />
-          <h2>Citrus Sling (Mocktail)</h2>
-          <p>Seedlip®, Non-Alcoholic Spirits, Lemonade, Tonic, Lemon</p>
-        </div>
-        <div>
-          <StaticImage
-            className="logo"
-            src="../images/cocktail-lemon.png"
-            alt="Lemon Zinger"
-          />
-          <h2>Lemon Zinger</h2>
-          <p>Cîroc® Vodka, Ginger Beer, Lemonade, Lemon</p>
+          <h2>Mango Tango</h2>
+          <p>Ciroc Mango, Cranberry Juice, Lemonade, Sprite, Lemon</p>
         </div>
         <div>
           <StaticImage
@@ -148,11 +139,20 @@ const Cocktail = () => {
         <div>
           <StaticImage
             className="logo"
-            src="../images/cocktail-mango.png"
-            alt="Mango Tango"
+            src="../images/cocktail-lemon.png"
+            alt="Lemon Zinger"
           />
-          <h2>Mango Tango</h2>
-          <p>Ciroc Mango, Cranberry Juice, Lemonade, Sprite, Lemon</p>
+          <h2>Lemon Zinger</h2>
+          <p>Cîroc® Vodka, Ginger Beer, Lemonade, Lemon</p>
+        </div>
+        <div>
+          <StaticImage
+            className="logo"
+            src="../images/cocktail-citrus.png"
+            alt="Citrus Sling"
+          />
+          <h2>Citrus Sling (Mocktail)</h2>
+          <p>Seedlip®, Non-Alcoholic Spirits, Lemonade, Tonic, Lemon</p>
         </div>
         {/* <div
           role="button"
