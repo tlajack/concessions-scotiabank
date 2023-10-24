@@ -224,6 +224,7 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>EDO Sushi</strong> – Made to order upon request
+                (sporting events only)
               </p>
               <p>
                 <strong>Aloette</strong> – Wedge Salad
@@ -243,7 +244,7 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>EDO Sushi (Section 104)</strong> – Made to order upon
-                request
+                request (sporting events only)
               </p>
               <p>
                 <strong>Hot Stove Carve (Section 117)</strong> – Carved Prime
@@ -259,10 +260,9 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>St. Patties (Section 122)</strong> – Cheese Please
-                Burger (request GF bun), Brazen Beef Burger (exclude onion
-                straws, request GF bun), Double Smoked Banquet Burger (exclude
-                onion straws, request GF Bun), Smokehouse Burger (request GF
-                Bun, exclude onion straws), Vegan Burger (request GF bun)
+                Burger (request GF bun), Vegan Burger (request GF bun); Blue
+                Cheese Burger (request GF Bun); Guacamole & Jalapeno Burger
+                (request GF bun)
               </p>
             </div>
           </div>
@@ -274,11 +274,10 @@ const SpecialtyPage = () => {
             <div className="content">
               <p>
                 <strong>Cherry St. BBQ (Section 314)</strong> – Cherry Street
-                Smoked Chicken Wings (Dry Rub option only), Smoked Pork Riblets
-                (exclude sauce), Carved Prime Rib (exclude bun) served with GF
-                potato chips, Brisket Sandwich (request GF Bun), Pulled Pork
-                Sandwich (request GF Bun), Cherry Street Double Stack Burger
-                (request GF Bun)
+                Smoked Chicken Wings (Dry Rub option only), Carved Prime Rib
+                (exclude bun) served with GF potato chips, Brisket Sandwich
+                (request GF Bun), Pulled Pork Sandwich (request GF Bun), Cherry
+                Street Double Stack Burger (request GF Bun)
               </p>
               <p>
                 <strong>Hot Stove Carve (Section 318)</strong> – Carved Prime
@@ -324,8 +323,8 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>EDO Sushi</strong> – Spicy Vegetarian Maki, Vegetarian
-                Maki
+                <strong>EDO Sushi</strong> – Vegetarian Maki; Spicy Vegetarian
+                Maki; Spicy Mango Maki
               </p>
               <p>
                 <strong>Aloette</strong> – Aloette Wedge Salad
@@ -338,18 +337,18 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Grains &amp; Greens (Section 101)</strong> – All Salads
-                are vegetarian. Plant based protein can be added to any Bowl to
-                make it vegetarian.
+                <strong>EDO Sushi (Section 104)</strong> – Vegetarian Maki;
+                Spicy Vegetarian Maki; Spicy Mango Maki
+              </p>
+
+              <p>
+                <strong>Grains &amp; Greens (Section 101)</strong> – The Power
+                Bowl
               </p>
               <p>
                 <strong>Mac &amp; Cheese Boutique (Section 103)</strong> –
                 Classic Grilled Cheese, Classic Mac &amp; Cheese, Bianco Mac
                 &amp; Cheese
-              </p>
-              <p>
-                <strong>EDO Sushi (Section 104)</strong> – Spicy Vegetarian
-                Maki, Vegetarian Maki
               </p>
               <p>
                 <strong>Noodle Bao (Section 106)</strong> – Mushroom Noodles,
@@ -360,8 +359,8 @@ const SpecialtyPage = () => {
                 Fries, Plant-Based Hot Dog, Loaded Nachos
               </p>
               <p>
-                <strong>Wicked Carib &amp; Doubles (Section 110)</strong> – Jerk
-                Fritter Roti, Jerk Fritters
+                <strong>Wicked Carib &amp; Doubles (Section 110)</strong> –
+                Trini Mac & Cheese Pie; Aloo Cheese Pie
               </p>
               <p>
                 <strong>Pizza Pizza (Section 111, Section 120)</strong> – Cheese
@@ -371,13 +370,17 @@ const SpecialtyPage = () => {
                 <strong>Hogtown (Section 112)</strong> – Plant-Based Hot Dog
               </p>
               <p>
-                <strong>Tecolote (Section 120)</strong> – Mushroom Al Pastor
-                Tacos, Nachos Tecolote
+                <strong>Panini Sandwich Shop (Section 120)</strong> – Muffuletta
+                Sandwich
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> – Fries,
                 Fries &amp; Gravy (ask for vegan gravy), Vegan Mushroom Poutine,
                 Bruschetta Pizza Slice
+              </p>
+              <p>
+                <strong>Hot Stove Carve (Section 117)</strong> – Truffle Grilled
+                Cheese with Kettle Chips
               </p>
             </div>
           </div>
@@ -404,6 +407,14 @@ const SpecialtyPage = () => {
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries, Vegan
                 Mushroom Poutine, Fries &amp; Gravy (ask for vegan gravy)
+              </p>
+              <p>
+                <strong>ChungChun Rice Dogs (Section 308)</strong> – Mozzarella
+                Dog
+              </p>
+              <p>
+                <strong>Hot Stove Carve (Section 319)</strong> – Truffle Grilled
+                Cheese with Kettle Chips
               </p>
             </div>
           </div>
@@ -439,7 +450,7 @@ const SpecialtyPage = () => {
             <div className="content">
               <p>
                 <strong>EDO Sushi</strong> – Vegan options available upon
-                request
+                request (sporting events only)
               </p>
             </div>
           </div>
@@ -449,9 +460,8 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Grains &amp; Greens (Section 101)</strong> – G&amp;G
-                Grain Salad; Yuzu Greens Salad; Plant-Based Protein available
-                upon request.
+                <strong>Grains &amp; Greens (Section 101)</strong> – The Power
+                Bowl
               </p>
               <p>
                 <strong>EDO Sushi (Section 104)</strong> – Vegan options
@@ -461,15 +471,11 @@ const SpecialtyPage = () => {
                 <strong>Noodle Bao (Section 106)</strong> – Mushroom Bao
               </p>
               <p>
-                <strong>Wicked Carib &amp; Doubles (Section 110)</strong> – Jerk
-                Fritter Roti, Jerk Fritters
-              </p>
-              <p>
                 <strong>Hogtown (Section 112)</strong> – Plant-Based Hot Dog
               </p>
               <p>
-                <strong>TECOLOTE (Section 120)</strong> – Nachos Tecolote
-                (exclude cheese), Mushroom Al Pastor Tacos
+                <strong>Panini Sandwich Shop (Section 120)</strong> – Muffuletta
+                Sandwich
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> – Fries,
@@ -515,7 +521,7 @@ const SpecialtyPage = () => {
             </div>
           </div>
         </div>{" "}
-        {/* ########### Vegan ############*/}
+        {/* ########### Halal ############*/}
         <div className="offerings" id="halal">
           <div className="title">
             <h3>Halal</h3>
@@ -547,10 +553,6 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Food Junction (Section 107, 121)</strong> – Jerk Tater
-                Tots (exclude gouda cheese)
-              </p>
-              <p>
                 <strong>Noodle Bao (Section 106)</strong> – Thai Peanut Chicken
                 Noodles; Mushroom Noodles; Mushroom Bao; Karaage Spicy Chicken
                 Bao
@@ -560,15 +562,15 @@ const SpecialtyPage = () => {
                 Rib served with potato chips
               </p>
               <p>
-                <strong>Wicked Carib (Section 110)</strong> – Curry Beef Roti,
-                Jerk Chicken Roti, Jerk Chicken Sandwich, Jerk Fritter Roti,
-                Jerk Fritters
+                <strong>Wicked Carib (Section 110)</strong> – Butter Chicken
+                Sandwich; Jerk Chicken Sandwich; Jerk Chicken Roti Wrap; Stew
+                Beef Roti Wrap; Pepper Cheese Pie; Trini Mac & Cheese Pie
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> –
                 Rotisserie Chicken Poutine (sub vegan gravy, exclude cheddar);
-                Beef Bulgogi Fries; Vegan Mushroom Poutine; Classic Poutine (sub
-                vegan gravy); Fries + Gravy (sub vegan gravy)
+                Vegan Mushroom Poutine; Classic Poutine (sub vegan gravy); Fries
+                + Gravy (sub vegan gravy)
               </p>
             </div>
           </div>
@@ -577,10 +579,6 @@ const SpecialtyPage = () => {
               <h4>300 LEVEL</h4>
             </div>
             <div className="content">
-              <p>
-                <strong>Food Junction (Section 311)</strong> – Jerk Tater Tots
-                (exclude gouda cheese)
-              </p>
               <p>
                 <strong>Cherry St. BBQ (Section 314)</strong> – Carved Prime Rib
                 served with potato chips
@@ -591,9 +589,9 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Rotisserie Chicken
-                Poutine (sub vegan gravy, exclude cheddar); Beef Bulgogi Fries;
-                Vegan Mushroom Poutine; Classic Poutine (sub vegan gravy); Fries
-                + Gravy (sub vegan gravy)
+                Poutine (sub vegan gravy, exclude cheddar); Vegan Mushroom
+                Poutine; Classic Poutine (sub vegan gravy); Fries + Gravy (sub
+                vegan gravy)
               </p>
             </div>
           </div>
