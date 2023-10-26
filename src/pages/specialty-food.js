@@ -227,7 +227,7 @@ const SpecialtyPage = () => {
                 (sporting events only)
               </p>
               <p>
-                <strong>Aloette</strong> – Wedge Salad
+                <strong>Aloette Go</strong> – Wedge Salad
               </p>
             </div>
           </div>
@@ -300,9 +300,9 @@ const SpecialtyPage = () => {
               <p>
                 <strong>Glutenberg Blonde Lager</strong> is available at World
                 Class Bar on the Event Level, Molson Brewhouse at Section 108,
-                Suds In The Six at Section 116 and Draught Deck at Section 314,
-                as well as at bars located at Section 104, Section 118, Section
-                311 and Section 323
+                Suds In The Six at Section 116 and Coors Light Chill Zone at
+                Section 314, as well as at bars located at Section 104, Section
+                118, Section 311 and Section 323
               </p>
             </div>
           </div>
@@ -327,7 +327,7 @@ const SpecialtyPage = () => {
                 Maki; Spicy Mango Maki
               </p>
               <p>
-                <strong>Aloette</strong> – Aloette Wedge Salad
+                <strong>Aloette Go</strong> – Aloette Wedge Salad
               </p>
             </div>
           </div>
@@ -359,8 +359,8 @@ const SpecialtyPage = () => {
                 Fries, Plant-Based Hot Dog, Loaded Nachos
               </p>
               <p>
-                <strong>Wicked Carib &amp; Doubles (Section 110)</strong> –
-                Trini Mac & Cheese Pie; Aloo Cheese Pie
+                <strong>Wicked Carib (Section 110)</strong> – Trini Mac & Cheese
+                Pie; Aloo Cheese Pie
               </p>
               <p>
                 <strong>Pizza Pizza (Section 111, Section 120)</strong> – Cheese
