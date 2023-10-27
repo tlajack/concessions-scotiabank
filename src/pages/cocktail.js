@@ -53,6 +53,25 @@ const MenuContainer = styled.div`
   div.inactive {
     display: none;
   }
+  .price {
+    text-align: right;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .cocktail {
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    h2 {
+      text-align: center;
+      margin-bottom: 0.5em;
+    }
+    p {
+      text-align: center;
+    }
+  }
 `;
 
 const FlyingMenuContainer = styled.div`
@@ -117,8 +136,16 @@ const Cocktail = () => {
     <Layout bgColour={"#341a0f"}>
       <Seo title="Cherry St Online Menu" />
       <MenuContainer>
-        <h1>Cocktail</h1>
-        <div>
+        <StaticImage
+          className="logo"
+          src="../images/cocktail-header.png"
+          alt="Signature Cocktail"
+        />
+
+        <p className="price">
+          List Price: $19<sup>.50</sup>
+        </p>
+        <div className="cocktail">
           <StaticImage
             className="logo"
             src="../images/cocktail-mango.png"
@@ -127,7 +154,7 @@ const Cocktail = () => {
           <h2>Mango Tango</h2>
           <p>Ciroc Mango, Cranberry Juice, Lemonade, Sprite, Lemon</p>
         </div>
-        <div>
+        <div className="cocktail">
           <StaticImage
             className="logo"
             src="../images/cocktail-peach.png"
@@ -136,16 +163,16 @@ const Cocktail = () => {
           <h2>Peach Punch</h2>
           <p>Cîroc® Peach, Cranberry Juice, Orange Juice, Lime</p>
         </div>
-        <div>
+        <div className="cocktail">
           <StaticImage
             className="logo"
             src="../images/cocktail-lemon.png"
             alt="Lemon Zinger"
           />
-          <h2>Lemon Zinger</h2>
-          <p>Cîroc® Vodka, Ginger Beer, Lemonade, Lemon</p>
+          <h2>Pineapple Breeze</h2>
+          <p>Cîroc® Pineapple, Ruby Red Grapefruit Juice, Sprite, Lime</p>
         </div>
-        <div>
+        <div className="cocktail">
           <StaticImage
             className="logo"
             src="../images/cocktail-citrus.png"
@@ -154,6 +181,54 @@ const Cocktail = () => {
           <h2>Citrus Sling (Mocktail)</h2>
           <p>Seedlip®, Non-Alcoholic Spirits, Lemonade, Tonic, Lemon</p>
         </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/cocktail-Jurassic.png"
+            alt="Jurassic JUICE"
+          />
+          <h2>Jurassic Juice</h2>
+          <p>Cîroc® Apple, Pomegranate Juice, Lemonade</p>
+        </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/cocktail-Sangria-red.png"
+            alt="RED SANGRIA"
+          />
+          <h2>Red Sangria</h2>
+          <p>
+            Crown Black Whisky, Red Wine, Orange Juice, Ginger Ale, Fruit
+            Garnish
+          </p>
+        </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/cocktail-Sangria-white.png"
+            alt="WHITE SANGRIA"
+          />
+          <h2>White Sangria</h2>
+          <p>
+            Ciroc® Peach, White Wine, Pineapple Juice, Ginger Ale, Fruit Garnish
+          </p>
+        </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/cocktail-caesar.png"
+            alt="Signature Caesar"
+          />
+          <h2>Signature Caesar</h2>
+          <p>
+            Smirnoff Vodka, Carrol & Co Bloody Mix, Clamato Juice, Matt & Steves
+            Extreme Bean, Lime
+          </p>
+        </div>
+        {/*  
+        Jurassic Juice, Sangria – red and white; and Caesar
+        */}
+
         {/* <div
           role="button"
           tabIndex={-1}
