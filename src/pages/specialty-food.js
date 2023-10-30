@@ -262,7 +262,7 @@ const SpecialtyPage = () => {
                 <strong>St. Patties (Section 122)</strong> – Cheese Please
                 Burger (request GF bun), Vegan Burger (request GF bun); Blue
                 Cheese Burger (request GF Bun); Guacamole & Jalapeno Burger
-                (request GF bun)
+                (request GF bun, exclude crispy jalapenos)
               </p>
             </div>
           </div>
@@ -273,9 +273,9 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Cherry St. BBQ (Section 314)</strong> – Cherry Street
-                Smoked Chicken Wings (Dry Rub option only), Carved Prime Rib
-                (exclude bun) served with GF potato chips, Brisket Sandwich
+                <strong>Cherry Street Bar-B-Que (Section 314)</strong> – Cherry
+                Street Smoked Chicken Wings (Dry Rub option only), Carved Prime
+                Rib (exclude bun) served with GF potato chips, Brisket Sandwich
                 (request GF Bun), Pulled Pork Sandwich (request GF Bun), Cherry
                 Street Double Stack Burger (request GF Bun)
               </p>
@@ -568,9 +568,9 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Poutinerie/Pizza Pizza (Section 120)</strong> –
-                Rotisserie Chicken Poutine (sub vegan gravy, exclude cheddar);
-                Vegan Mushroom Poutine; Classic Poutine (sub vegan gravy); Fries
-                + Gravy (sub vegan gravy)
+                Rotisserie Chicken Poutine (sub vegan gravy); Vegan Mushroom
+                Poutine; Classic Poutine (sub vegan gravy); Fries + Gravy (sub
+                vegan gravy)
               </p>
             </div>
           </div>
@@ -580,8 +580,9 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Cherry St. BBQ (Section 314)</strong> – Carved Prime Rib
-                served with potato chips
+                <strong>Cherry Street Bar-B-Que (Section 314)</strong> – Carved
+                Prime Rib served with potato chips; Cherry Street Smoked Chicken
+                Wings; Brisket Sandwich
               </p>
               <p>
                 <strong>Hot Stove Carve (Section 318)</strong> – Carved Prime
