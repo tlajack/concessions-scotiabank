@@ -142,9 +142,6 @@ const Cocktail = () => {
           alt="Signature Cocktail"
         />
 
-        <p className="price">
-          List Price: $19<sup>.50</sup>
-        </p>
         <div className="cocktail">
           <StaticImage
             className="logo"
@@ -166,7 +163,7 @@ const Cocktail = () => {
         <div className="cocktail">
           <StaticImage
             className="logo"
-            src="../images/cocktail-lemon.png"
+            src="../images/cocktail-pinapple.png"
             alt="Lemon Zinger"
           />
           <h2>Pineapple Breeze</h2>
@@ -224,6 +221,24 @@ const Cocktail = () => {
             Smirnoff Vodka, Carrol & Co Bloody Mix, Clamato Juice, Matt & Steves
             Extreme Bean, Lime
           </p>
+        </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/cocktail-buzzer.png"
+            alt="Buzzer Beater"
+          />
+          <h2>Buzzer Beater</h2>
+          <p>Smirnoff® Vodka, Watermelon Red Bull, Lime</p>
+        </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/cocktail-redbull.png"
+            alt="Vodka &amp; Redbull"
+          />
+          <h2>Vodka &amp; Redbull</h2>
+          <p>Vodka & Redbull</p>
         </div>
         {/*  
         Jurassic Juice, Sangria – red and white; and Caesar
