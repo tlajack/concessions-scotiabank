@@ -134,7 +134,7 @@ const Cocktail = () => {
 
   return (
     <Layout bgColour={"#341a0f"}>
-      <Seo title="Cherry St Online Menu" />
+      <Seo title="QS Bars" />
       <MenuContainer>
         <StaticImage
           className="logo"
