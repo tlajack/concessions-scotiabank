@@ -262,7 +262,8 @@ const SpecialtyPage = () => {
                 <strong>St. Patties (Section 122)</strong> – Cheese Please
                 Burger (request GF bun), Vegan Burger (request GF bun); Blue
                 Cheese Burger (request GF Bun); Guacamole & Jalapeno Burger
-                (request GF bun, exclude crispy jalapenos)
+                (request GF bun, exclude crispy jalapenos); Fries (request GF
+                fries)
               </p>
             </div>
           </div>
@@ -282,6 +283,10 @@ const SpecialtyPage = () => {
               <p>
                 <strong>Hot Stove Carve (Section 318)</strong> – Carved Prime
                 Rib (exclude bun) served with GF potato chips
+              </p>
+              <p>
+                <strong>Poutinerie (Section 322)</strong> – Fries (request GF
+                fries)
               </p>
             </div>
           </div>
@@ -582,7 +587,7 @@ const SpecialtyPage = () => {
               <p>
                 <strong>Cherry Street Bar-B-Que (Section 314)</strong> – Carved
                 Prime Rib served with potato chips; Cherry Street Smoked Chicken
-                Wings; Brisket Sandwich
+                Wings
               </p>
               <p>
                 <strong>Hot Stove Carve (Section 318)</strong> – Carved Prime
@@ -590,9 +595,8 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Rotisserie Chicken
-                Poutine (sub vegan gravy, exclude cheddar); Vegan Mushroom
-                Poutine; Classic Poutine (sub vegan gravy); Fries + Gravy (sub
-                vegan gravy)
+                Poutine (sub vegan gravy); Vegan Mushroom Poutine; Classic
+                Poutine (sub vegan gravy); Fries + Gravy (sub vegan gravy)
               </p>
             </div>
           </div>
