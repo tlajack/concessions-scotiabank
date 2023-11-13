@@ -428,7 +428,8 @@ const SpecialtyPage = () => {
             <div className="content">
               <p>
                 <strong>Vegetarian Snacks</strong> – Nachos, Popcorn, M&amp;M
-                Peanuts, Skittles, Salted Pretzel
+                Peanuts, Skittles, Salted Pretzel, Plant Based Drumstick
+                (Section 120 and Section 321 only)
               </p>
             </div>
           </div>
@@ -521,7 +522,8 @@ const SpecialtyPage = () => {
             <div></div>
             <div className="content">
               <p>
-                <strong>Vegan Snacks</strong> – Salted Pretzel
+                <strong>Vegan Snacks</strong> – Salted Pretzel, Plant Based
+                Drumstick (Section 120 and Section 321 only)
               </p>
             </div>
           </div>
