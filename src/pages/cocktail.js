@@ -185,7 +185,7 @@ const Cocktail = () => {
             alt="Jurassic JUICE"
           />
           <h2>Jurassic Juice</h2>
-          <p>Cîroc® Apple, Pomegranate Juice, Lemonade</p>
+          <p>Cîroc® Apple, Cranberry Juice, Lemonade</p>
         </div>
         <div className="cocktail">
           <StaticImage
