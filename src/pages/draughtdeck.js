@@ -230,7 +230,7 @@ const CherryPage = () => {
             alt="Prime Rib Sandwich"
           />
           <h2>Prime Rib Sandwich</h2>
-          <p className="price">23.00</p>
+          <p className="price">25.00</p>
           <div className="description">
             <p>
               Hand Carved AAA Prime Rib Sandwich served on a Fresh Onion Bun
