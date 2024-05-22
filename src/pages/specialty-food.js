@@ -293,7 +293,7 @@ const SpecialtyPage = () => {
           </div>
           <div className="eventGrid">
             <div className="level">
-              <h4>GALLERY LEVEL</h4>
+              <h4>GALLERY<br/>LEVEL</h4>
             </div>
             <div className="content">
               <p>
