@@ -276,7 +276,7 @@ const SpecialtyPage = () => {
                 <strong>Pizza Pizza</strong> – Cheese Slice
               </p>
               <p>
-            </div
+            </div>
 
             <div className="level">
               <h4>100 LEVEL</h4>
