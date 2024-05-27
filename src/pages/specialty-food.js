@@ -267,6 +267,17 @@ const SpecialtyPage = () => {
           </div>
 
           <div className="eventGrid">
+
+            <div className="level">
+              <h4>EVENT<br/>LEVEL</h4>
+            </div>
+            <div className="content">
+              <p>
+                <strong>Pizza Pizza</strong> – Cheese Slice
+              </p>
+              <p>
+            </div
+
             <div className="level">
               <h4>100 LEVEL</h4>
             </div>
