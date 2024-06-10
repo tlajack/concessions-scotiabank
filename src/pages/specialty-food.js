@@ -225,6 +225,9 @@ const SpecialtyPage = () => {
               <p>
               <strong>EDO Sushi (Section 104)</strong> – Made to order upon request (select events only)
               </p>
+              <p><strong>Food Junction (Section 107)</p>strong> – Hot Dog (request GF bun)</p>
+              <p><strong>Pizza Pizza (Section 108)</p>strong> – Hot Dog (request GF bun)</p>
+              <p><strong>Hogtown (Section 112)</p>strong> – Hot Dog (request GF bun)</p>
             </div>
           </div>
 
@@ -236,6 +239,8 @@ const SpecialtyPage = () => {
               <p>
               <strong>Cherry Street Bar-B-Que (Section 314)</strong> – Cherry Street Smoked Chicken Wings (Dry Rub option only), Brisket Sandwich (request GF bun), Pulled Pork Sandwich (request GF bun), Cherry Street Double Stack Burger (request GF bun)
               </p>
+              <p><strong>Food Junction (Section 311)</strong> – Hot Dog (request GF bun)</p>
+              <p><strong>Hogtown (Section 320)</strong> – Hot Dog (request GF bun)</p>
             </div>
           </div>
 
