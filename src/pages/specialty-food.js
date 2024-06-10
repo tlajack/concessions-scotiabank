@@ -225,9 +225,9 @@ const SpecialtyPage = () => {
               <p>
               <strong>EDO Sushi (Section 104)</strong> – Made to order upon request (select events only)
               </p>
-              <p><strong>Food Junction (Section 107)</p>strong> – Hot Dog (request GF bun)</p>
-              <p><strong>Pizza Pizza (Section 108)</p>strong> – Hot Dog (request GF bun)</p>
-              <p><strong>Hogtown (Section 112)</p>strong> – Hot Dog (request GF bun)</p>
+              <p><strong>Food Junction (Section 107)</p></strong> – Hot Dog (request GF bun)</p>
+              <p><strong>Pizza Pizza (Section 108)</p></strong> – Hot Dog (request GF bun)</p>
+              <p><strong>Hogtown (Section 112)</p></strong> – Hot Dog (request GF bun)</p>
             </div>
           </div>
 
