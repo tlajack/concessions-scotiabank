@@ -316,7 +316,7 @@ const CherryPage = () => {
             src="../images/CherrySt-10.jpg"
             alt="Cherry Street BBQ Empanadas"
           />
-          <h2>Cherry Street BBQ Empanadas</h2>
+          <h2>Cherry Street BBQ Empanadas </h2>
           <p className="price">13.00</p>
           <div className="description">
             <p>
