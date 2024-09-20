@@ -230,7 +230,7 @@ const CherryPage = () => {
             alt="Prime Rib Sandwich"
           />
           <h2>Prime Rib Sandwich</h2>
-          <p className="price">25.00</p>
+          <p className="price">25.50</p>
           <div className="description">
             <p>
               Hand Carved AAA Prime Rib Sandwich served on a Fresh Onion Bun
@@ -247,8 +247,8 @@ const CherryPage = () => {
             src="../images/CherrySt-7.jpg"
             alt="Brisket Sandwich"
           />
-          <h2>Brisket Sandwich</h2>
-          <p className="price">21.00</p>
+          <h2>Cherry Street Brisket Sandwich</h2>
+          <p className="price">21.50</p>
           <div className="description">
             <p>
               Texas Style Beef Brisket smoked over white oak, Pickles, Onions
@@ -266,7 +266,7 @@ const CherryPage = () => {
             alt="Cherry Street Double Stack Burger"
           />
           <h2>Cherry Street Double Stack Burger</h2>
-          <p className="price">19.00</p>
+          <p className="price">20.00</p>
           <div className="description">
             <p>
               Two 4oz USDA Prime Brisket Patties, Lettuce, Tomato, Onion,
@@ -284,8 +284,8 @@ const CherryPage = () => {
             src="../images/CherrySt-2.jpg"
             alt="Pulled Pork Sandwich"
           />
-          <h2>Pulled Pork Sandwich</h2>
-          <p className="price">18.00</p>
+          <h2>Cherry Street Pulled Pork Sandwich</h2>
+          <p className="price">18.50</p>
           <div className="description">
             <p>
               Slow Smoked Pork Shoulder, Slaw, Pickle and BBQ Sauce on a Toasted
@@ -297,6 +297,34 @@ const CherryPage = () => {
           </div>
         </MenuItem>
         <MenuItem>
+          <StaticImage
+            className="menuPhoto"
+            src="../images/CherrySt-9.jpg"
+            alt="Cherry Street Porchetta Sausage"
+          />
+          <h2>Cherry Street Porchetta Sausage</h2>
+          <p className="price">14.50</p>
+          <div className="description">
+            <p>
+              ​👉 <strong>Add Fries for $5.00</strong>
+            </p>
+          </div>
+        </MenuItem>
+        <MenuItem>
+          <StaticImage
+            className="menuPhoto"
+            src="../images/CherrySt-10.jpg"
+            alt="Cherry Street BBQ Empanadas"
+          />
+          <h2>Cherry Street BBQ Empanadas</h2>
+          <p className="price">13.00</p>
+          <div className="description">
+            <p>
+              ​👉 <strong>Add Fries for $5.00</strong>
+            </p>
+          </div>
+        </MenuItem>
+        {/* <MenuItem>
           <StaticImage
             className="menuPhoto"
             src="../images/CherrySt-3.jpg"
@@ -346,42 +374,42 @@ const CherryPage = () => {
               Smoked Brisket, topped with Sour Cream, Cheddar Cheese and Chives.
             </p>
           </div>
-        </MenuItem>
+        </MenuItem> */}
         <p className="notes">Prices exclude all applicable taxes</p>
         <h1 id="nonalcoholic">NON-ALCOHOLIC</h1>
         <MenuItem>
           <h2>32oz Collector Cup</h2>
-          <p className="price">12.00</p>
+          <p className="price">12.25</p>
           <div className="description">
             <p>Coke, Diet Coke, Sprite, Coke Zero Sugar, Fanta</p>
           </div>
         </MenuItem>
         <MenuItem>
           <h2>Coca-Cola Fountain Beverages</h2>
-          <p className="price">7.50</p>
+          <p className="price">7.75</p>
           <div className="description">
             <p>Coke, Diet Coke, Sprite, Coke Zero Sugar, Fanta</p>
           </div>
         </MenuItem>
         <MenuItem>
           <h2>Coca-Cola Bottled Beverages</h2>
-          <p className="price">7.50</p>
+          <p className="price">7.75</p>
           <div className="description">
             <p>Root Beer, Nestea, Apple Juice, AHA&nbsp;Sparkling Water</p>
           </div>
         </MenuItem>
         <MenuItem>
           <h2>smartwater</h2>
-          <p className="price">7.00</p>
+          <p className="price">7.25</p>
         </MenuItem>
-        <MenuItem>
+        {/* <MenuItem>
           <h2>AHA&nbsp;Sparkling Water</h2>
           <p className="price">7.00</p>
           <div className="description"></div>
-        </MenuItem>
+        </MenuItem> */}
         <MenuItem>
           <h2>Red Bull</h2>
-          <p className="price">7.75</p>
+          <p className="price">8.00</p>
           <div className="description">
             <p>Regular or Sugar Free</p>
           </div>
@@ -390,15 +418,15 @@ const CherryPage = () => {
         <h1 id="snacks">SNACKS</h1>
         <MenuItem>
           <h2>Bagged Popcorn</h2>
-          <p className="price">10.25</p>
+          <p className="price">10.50</p>
         </MenuItem>
         <MenuItem>
           <h2>Bagged Chocolate</h2>
-          <p className="price">12.00</p>
+          <p className="price">12.25</p>
         </MenuItem>
         <MenuItem>
           <h2>Bagged Candy</h2>
-          <p className="price">10.00</p>
+          <p className="price">10.50</p>
         </MenuItem>
         <p className="notes">Prices exclude all applicable taxes</p>
         <DraughtDeck id="alcohol">
@@ -421,12 +449,12 @@ const CherryPage = () => {
               <div className="description">
                 <p className="drinkType">DRAUGHT</p>
                 <p className="drinkPrice">
-                  625ml - $14.25
+                  625ml - $14.50
                   <br />
-                  725ml - $17.25
+                  725ml - $17.50
                 </p>
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$13.00</p>
+                <p className="drinkPrice">$13.25</p>
               </div>
             </div>
           </Drinks>
@@ -440,12 +468,12 @@ const CherryPage = () => {
               <div className="description">
                 <p className="drinkType">DRAUGHT</p>
                 <p className="drinkPrice">
-                  625ml - $14.25
+                  625ml - $14.50
                   <br />
-                  725ml - $17.25
+                  725ml - $17.50
                 </p>
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$13.00</p>
+                <p className="drinkPrice">$13.25</p>
               </div>
             </div>
           </Drinks>
@@ -459,12 +487,12 @@ const CherryPage = () => {
               <div className="description">
                 <p className="drinkType">DRAUGHT</p>
                 <p className="drinkPrice">
-                  625ml - $15.00
+                  625ml - $15.25
                   <br />
-                  725ml - $18.00
+                  725ml - $18.25
                 </p>
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.00</p>
+                <p className="drinkPrice">$14.25</p>
               </div>
             </div>
           </Drinks>
@@ -477,12 +505,12 @@ const CherryPage = () => {
               <div className="description">
                 <p className="drinkType">DRAUGHT</p>
                 <p className="drinkPrice">
-                  625ml - $15.00
+                  625ml - $15.25
                   <br />
-                  725ml - $18.00
+                  725ml - $18.25
                 </p>
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.00</p>
+                <p className="drinkPrice">$14.25</p>
               </div>
             </div>
           </Drinks>
@@ -495,12 +523,12 @@ const CherryPage = () => {
               <div className="description">
                 <p className="drinkType">DRAUGHT</p>
                 <p className="drinkPrice">
-                  625ml - $15.00
+                  625ml - $15.25
                   <br />
-                  725ml - $18.00
+                  725ml - $18.25
                 </p>
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.00</p>
+                <p className="drinkPrice">$14.25</p>
               </div>
             </div>
           </Drinks>
@@ -513,12 +541,12 @@ const CherryPage = () => {
               <div className="description">
                 <p className="drinkType">DRAUGHT</p>
                 <p className="drinkPrice">
-                  625ml - $15.00
+                  625ml - $15.25
                   <br />
-                  725ml - $18.00
+                  725ml - $18.25
                 </p>
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.00</p>
+                <p className="drinkPrice">$14.25</p>
               </div>
             </div>
           </Drinks>
@@ -534,34 +562,28 @@ const CherryPage = () => {
               <div className="description">
                 <p className="drinkType">DRAUGHT</p>
                 <p className="drinkPrice">
-                  625ml - $15.00
+                  625ml - $15.25
                   <br />
-                  725ml - $18.00
+                  725ml - $18.25
                 </p>
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.00</p>
+                <p className="drinkPrice">$14.25</p>
               </div>
             </div>
           </Drinks>
-          <Drinks>
+          {/* <Drinks>
             <div>
-              <StaticImage src="../images/drink-12.png" alt="Rickard’s Red" />
+              <StaticImage src="../images/drink-12.png" alt="Rickard's Red" />
             </div>
             <div>
-              <h1>Rickard’s Red</h1>
+              <h1>Rickard's Red</h1>
               <div className="description">
-                {/* <p className="drinkType">DRAUGHT</p>
-                <p className="drinkPrice">
-                  625ml - $15.00
-                  <br />
-                  725ml - $18.00
-                </p> */}
                 <p className="drinkType">TALL CAN</p>
                 <p className="drinkPrice">$14.00</p>
               </div>
             </div>
-          </Drinks>
-          <Drinks>
+          </Drinks> */}
+          {/* <Drinks>
             <div>
               <StaticImage src="../images/drink-17.png" alt="Molson Ultra" />
             </div>
@@ -572,7 +594,7 @@ const CherryPage = () => {
                 <p className="drinkPrice">$13.00</p>
               </div>
             </div>
-          </Drinks>
+          </Drinks> */}
 
           <Drinks>
             <div>
@@ -582,7 +604,7 @@ const CherryPage = () => {
               <h1>Miller Lite</h1>
               <div className="description">
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$13.00</p>
+                <p className="drinkPrice">$13.25</p>
               </div>
             </div>
           </Drinks>
@@ -598,7 +620,7 @@ const CherryPage = () => {
               <h1>CREEMORE PILSNER</h1>
               <div className="description">
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.00</p>
+                <p className="drinkPrice">$14.25</p>
               </div>
             </div>
           </Drinks>
@@ -610,7 +632,7 @@ const CherryPage = () => {
               <h1>Sol</h1>
               <div className="description">
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.00</p>
+                <p className="drinkPrice">$14.25</p>
               </div>
             </div>
           </Drinks>
@@ -622,7 +644,7 @@ const CherryPage = () => {
               <h1>HEINEKEN</h1>
               <div className="description">
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.50</p>
+                <p className="drinkPrice">$14.75</p>
               </div>
             </div>
           </Drinks>
@@ -634,7 +656,22 @@ const CherryPage = () => {
               <h1>strongbow cider</h1>
               <div className="description">
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.50</p>
+                <p className="drinkPrice">$14.75</p>
+              </div>
+            </div>
+          </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage
+                src="../images/drink-28.png"
+                alt="Madri Exceptional"
+              />
+            </div>
+            <div>
+              <h1>Madri Exceptional</h1>
+              <div className="description">
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$14.75</p>
               </div>
             </div>
           </Drinks>
@@ -646,7 +683,7 @@ const CherryPage = () => {
               <h1>Vizzy Hard Seltzer</h1>
               <div className="description">
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.00</p>
+                <p className="drinkPrice">$14.25</p>
               </div>
             </div>
           </Drinks>
@@ -673,7 +710,7 @@ const CherryPage = () => {
               <h1>Smirnoff Ice</h1>
               <div className="description">
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.00</p>
+                <p className="drinkPrice">$14.25</p>
               </div>
             </div>
           </Drinks>
@@ -688,10 +725,23 @@ const CherryPage = () => {
               <h1>Arizona Hard Ice Tea</h1>
               <div className="description">
                 <p className="drinkType">TALL CAN</p>
-                <p className="drinkPrice">$14.00</p>
+                <p className="drinkPrice">$14.25</p>
               </div>
             </div>
           </Drinks>
+          <Drinks>
+            <div>
+              <StaticImage src="../images/drink-29.png" alt="Coors Seltzer" />
+            </div>
+            <div>
+              <h1>Coors Seltzer</h1>
+              <div className="description">
+                <p className="drinkType">TALL CAN</p>
+                <p className="drinkPrice">$14.25</p>
+              </div>
+            </div>
+          </Drinks>
+
           {/* <Drinks>
             <div>
               <StaticImage
@@ -733,7 +783,7 @@ const CherryPage = () => {
                 <p className="drinkType">Non-Alcoholic Beer</p>
                 <p className="drinkPrice"></p>
                 <p className="drinkType">330ml CAN</p>
-                <p className="drinkPrice">$8.00</p>
+                <p className="drinkPrice">$8.50</p>
               </div>
             </div>
           </Drinks>
@@ -749,7 +799,7 @@ const CherryPage = () => {
                 <p className="drinkType wide">
                   1.5oz CIROC Mango, Cranberry Juice, Lemonade, Sprite
                 </p>
-                <p className="drinkPrice">$19.50</p>
+                <p className="drinkPrice">$20.00</p>
               </div>
             </div>
           </Drinks>
@@ -763,7 +813,7 @@ const CherryPage = () => {
                 <p className="drinkType wide">
                   1.5oz CȊROC Peach, Cranberry Juice, Orange Juice, Lime
                 </p>
-                <p className="drinkPrice">$19.50</p>
+                <p className="drinkPrice">$20.00</p>
               </div>
             </div>
           </Drinks>
@@ -780,7 +830,7 @@ const CherryPage = () => {
                 <p className="drinkType wide">
                   1.5oz CIROC Pineapple, Grapefruit Juice, Sprite
                 </p>
-                <p className="drinkPrice">$19.50</p>
+                <p className="drinkPrice">$20.00</p>
               </div>
             </div>
           </Drinks>
@@ -795,9 +845,9 @@ const CherryPage = () => {
                   Smirnoff Vodka, Watermelon Red Bull, Lime
                 </p>
                 <p className="drinkPrice">
-                  1oz&emsp;$17.50
+                  1oz&emsp;$17.75
                   <br />
-                  2oz&emsp;$27.00
+                  2oz&emsp;$27.50
                 </p>
               </div>
             </div>
@@ -815,7 +865,7 @@ const CherryPage = () => {
                 <p className="drinkType wide">
                   Seedlip Non-Alcoholic Spirits, Lemonade, Tonic, Lemon
                 </p>
-                <p className="drinkPrice">$12.00</p>
+                <p className="drinkPrice">$12.50</p>
               </div>
             </div>
           </Drinks>
@@ -824,27 +874,27 @@ const CherryPage = () => {
             <h1 className="sectionTitle">Liquor</h1>
             <p className="liquorTitle">PREMIUM</p>
             <p className="liquorPrice">
-              1oz - $13.00
+              1oz - $13.25
               <br />
-              2oz - $24.00
+              2oz - $24.50
             </p>
             <p className="liquorTitle">DELUXE</p>
             <p className="liquorPrice">
-              1oz - $13.50
+              1oz - $13.75
               <br />
-              2oz - $25.00
+              2oz - $25.50
             </p>
             <p className="liquorTitle">ULTRA-PREMIUM</p>
             <p className="liquorPrice">
-              1oz - $14.00
+              1oz - $14.50
               <br />
-              2oz - $26.00
+              2oz - $27.00
             </p>
             <p className="liquorTitle">DON JULIO BLANCO TEQUILA</p>
             <p className="liquorPrice">
-              1oz - $17.50
+              1oz - $18.00
               <br />
-              2oz - $33.00
+              2oz - $34.00
             </p>
 
             <h1 className="sectionTitle">WINE</h1>
@@ -855,11 +905,7 @@ const CherryPage = () => {
                 YELLOW TAIL CABERNET SAUVIGNON
               </em>
             </p>
-            <p className="liquorPrice">
-              6oz - $14.50
-              <br />
-              9oz - $20.00
-            </p>
+            <p className="liquorPrice">9oz - $20.50</p>
             <p className="liquorTitle">PREMIUM</p>
             <p>
               <em>
@@ -868,11 +914,7 @@ const CherryPage = () => {
                 BREAD & BUTTER CHARDONNAY
               </em>
             </p>
-            <p className="liquorPrice">
-              6oz - $16.50
-              <br />
-              9oz - $23.00
-            </p>
+            <p className="liquorPrice">9oz - $23.50</p>
           </Liquor>
         </DraughtDeck>
         <p className="notes">Prices exclude all applicable taxes</p>
