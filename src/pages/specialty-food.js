@@ -230,7 +230,6 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p><strong>Food Junction (Section 107)</strong> - Hot Dog (request GF bun)</p>
-              <p><strong>Wicked Carib (Section 110)</strong> - Wicked Spiced Beef Roti Wrap, Wicked Vegan Roti Wrap, Doubles</p>
               <p><strong>Hogtown (Section 112)</strong> - Hot Dog (request GF bun), Chili Dog (request GF bun)</p>
               <p><strong>Food Junction (Section 120)</strong> - Hot Dog (request GF bun)</p>
               <p><strong>St. Patties Burgers + Poutine (Section 122)</strong> - Cheese Please Burger (request GF bun), Triple OT Burger (remove Onion Ring, request GF bun), Smokehouse Burger (request GF bun), Vegan Burger (request GF bun), Fries</p>
