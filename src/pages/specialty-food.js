@@ -229,10 +229,8 @@ const SpecialtyPage = () => {
               <h4>100 LEVEL</h4>
             </div>
             <div className="content">
-              <p><strong>Food Junction (Section 107)</strong> - Hot Dog (request GF bun)</p>
-              <p><strong>Hogtown (Section 112)</strong> - Hot Dog (request GF bun), Chili Dog (request GF bun)</p>
-              <p><strong>Food Junction (Section 120)</strong> - Hot Dog (request GF bun)</p>
-              <p><strong>St. Patties Burgers + Poutine (Section 122)</strong> - Cheese Please Burger (request GF bun), Triple OT Burger (remove Onion Ring, request GF bun), Smokehouse Burger (request GF bun), Vegan Burger (request GF bun), Fries</p>
+              <p><strong>Hogtown (Section 103)</strong> – Hot Dog (request GF bun), Chili Dog (request GF bun)</p>
+              <p><strong>St. Patties Burgers + Poutine (Section 122)</strong> – Cheese Please Burger (request GF bun), Triple OT Burger (remove Onion Ring, request GF bun), Smokehouse Burger (request GF bun), Vegan Burger (request GF bun), Fries</p>
             </div>
           </div>
 
@@ -241,10 +239,9 @@ const SpecialtyPage = () => {
               <h4>300 LEVEL</h4>
             </div>
             <div className="content">
-              <p><strong>Cherry Street Bar-B-Que (Section 314)</strong> - Brisket Sandwich (request GF bun), Pulled Pork Sandwich (request GF bun), Cherry Street Double Stack Burger (request GF bun)</p>
-              <p><strong>Food Junction (Section 311)</strong> - Hot Dog (request GF bun)</p>
-              <p><strong>EDO Sushi (Section 318)</strong> - Made to order upon request (select events only)</p>
-              <p><strong>Hogtown (Section 320)</strong> - Hot Dog (request GF bun), Chili Dog (request GF bun)</p>
+              <p><strong>Cherry Street Bar-B-Que (Section 314)</strong> – Brisket Sandwich (request GF bun), Pulled Pork Sandwich (request GF bun), Cherry Street Double Stack Burger (request GF bun)</p>
+              <p><strong>Food Junction (Section 311)</strong> – Hot Dog (request GF bun)</p>
+              <p><strong>EDO Sushi (Section 318)</strong> – Made to order upon request (select events only)</p>
             </div>
           </div>
 
@@ -253,7 +250,7 @@ const SpecialtyPage = () => {
             <div className="content">
               <p><strong>Gluten Friendly Snacks</strong> — Popcorn</p>
               <p><strong>Strongbow Cider</strong> is available at most bars and beer kiosks</p>
-              <p><strong>Ancestral Quinoa Beer</strong> is available at Coors Light Chill Zone at Section 314, as well as at bars located at Section 104, Section 111 and Section 323.</p>
+              <p><strong>Ancestral Quinoa Beer</strong> is available at Coors Light Chill Zone at Section 314, as well as at bars located at Section 105, Section 116, Section 120, and Section 323.</p>
             </div>
           </div>
 
@@ -280,7 +277,8 @@ const SpecialtyPage = () => {
               </h4>
             </div>
             <div className="content">
-              <p><strong>Aloette Go (Event Level)</strong> - Santa Fe Crunch</p>
+              <p><strong>Aloette Go (Event Level)</strong> – Santa Fe Crunch</p>
+              <p><strong>EDO Sushi (Event Level)</strong> – Vegetarian Maki, Spicy Vegetarian Maki, Spicy Mango Maki (select events only)</p>
             </div>
           </div>
 
@@ -289,44 +287,35 @@ const SpecialtyPage = () => {
               <h4>100 LEVEL</h4>
             </div>
             <div className="content">
-              <p><strong>Food Junction (Section 107)</strong> - Fries, Nacho Fries, Plant-Based Hot Dog, Loaded Nachos</p>
-              <p><strong>Pizza Pizza (Section 108, Section 111, Section 121)</strong> - Cheese Slice, Vegetarian Slice</p>
-              <p><strong>Wicked Carib (Section 110)</strong> - Vegan Doubles, Wicked Vegan Roti Wrap</p>
-              <p><strong>Hogtown (Section 112)</strong> - Plant-Based Hot Dog</p>
-              <p><strong>Hot Stove Carve (Section 117)</strong> - Truffled Mac & Cheese, Truffled Grilled Cheese</p>
-              <p><strong>Food Junction (Section 120)</strong> - Fries</p>
-              <p><strong>St. Patties Burgers + Poutine (Section 122)</strong> - Vegan Burger, Fries, Vegan Mushroom Poutine, Fries & Gravy (ask for vegan gravy)</p>
+              <p><strong>Molson Market (Section 101)</strong> – EDO Sushi vegan options available upon request (select events only)</p>
+              <p><strong>Hogtown (Section 103)</strong> – Plant-Based Hot Dog</p>
+              <p><strong>Wicked Carib (Section 104)</strong> – Vegan Doubles, Wicked Vegan Roti Wrap</p>
+              <p><strong>Panini Shop (Section 106)</strong> *Coming Soon* – Vegan Muffuletta</p>
+              <p><strong>Food Junction (Section 109, Section 120)</strong> – Fries</p>
+              <p><strong>Hot Stove Carve (Section 117)</strong> – Truffle Mac & Cheese, Truffled Grilled Cheese</p>
+              <p><strong>Pizza Pizza (Section 121)</strong> – Cheese Slice, Vegetarian Slice</p>
+              <p><strong>St. Patties Burgers + Poutine (Section 122)</strong> – Vegan Burger, Fries, Vegan Mushroom Poutine, Fries & Gravy (ask for vegan gravy)</p>
             </div>
           </div>
-
-          {/* <div className="eventGrid">
-            <div className="level">
-              <h4>GALLERY<br/>LEVEL</h4>
-            </div>
-            <div className="content">
-              <p>
-                <strong>Gallery Concessions</strong> - Cheese Slice
-              </p>
-            </div>
-          </div> */}
 
           <div className="eventGrid">
             <div className="level">
               <h4>300 LEVEL</h4>
             </div>
             <div className="content">
-              <p><strong>Pizza Pizza (Section 307 & 321)</strong> - Cheese Slice, Vegetarian Slice</p>
-              <p><strong>EDO Sushi (Section 318)</strong> - Vegetarian Maki; Spicy Vegetarian Maki; Spicy Mango Maki (select events only)</p>
-              <p><strong>Hogtown (Section 320)</strong> - Plant-Based Hot Dog</p>
-              <p><strong>Food Junction (Section 311)</strong> - Fries, Nacho Fries, Loaded Nachos, Plant-Based Hot Dog</p>
-              <p><strong>Poutinerie (Section 322)</strong> - Fries, Vegan Mushroom Poutine, Fries & Gravy (ask for vegan gravy)</p>
-              <p><strong>Hot Stove Carve (Section 319)</strong> - Truffle Grilled Cheese</p>
+              <p><strong>Pizza Pizza (Section 307, Section 321)</strong> – Cheese Slice, Vegetarian Slice</p>
+              <p><strong>Food Junction (Section 311)</strong> – Fries, Nacho Fries, Loaded Nachos, Plant-Based Hot Dog</p>
+              <p><strong>Cherry Street Bar-B-Que (Section 314)</strong> – Vegetarian Empanadas, Fries</p>
+              <p><strong>EDO Sushi (Section 318)</strong> – Vegetarian Maki, Spicy Vegetarian Maki, Spicy Mango Maki (select events only)</p>
+              <p><strong>Hot Stove Carve (Section 318)</strong> – Truffle Grilled Cheese</p>
+              <p><strong>Hogtown (Section 320)</strong> – Plant-Based Hot Dog</p>
+              <p><strong>Poutinerie (Section 322)</strong> – Fries, Vegan Mushroom Poutine, Fries & Gravy (ask for vegan gravy)</p>
             </div>
           </div>
           <div className="eventGrid">
             <div></div>
             <div className="content">
-              <p><strong>Vegetarian Snacks</strong> - Popcorn, Salted Pretzel, Plant Based Drumstick (Section 321 only)</p>
+              <p><strong>Vegetarian Snacks</strong> - Popcorn, Salted Pretzel, Plant-Based Drumstick (Section 321 only)</p>
             </div>
           </div>
         </div>{" "}
@@ -354,7 +343,7 @@ const SpecialtyPage = () => {
               </h4>
             </div>
             <div className="content">
-              <p><strong>EDO Sushi (Event Level)</strong> - Vegan options available upon request</p>
+              <p><strong>EDO Sushi (Event Level)</strong> - Vegan options available upon request (select events only)</p>
             </div>
           </div>
 
@@ -363,10 +352,11 @@ const SpecialtyPage = () => {
               <h4>100 LEVEL</h4>
             </div>
             <div className="content">
-              <p><strong>Molson Market (Section 101)</strong> - EDO Sushi vegan options available upon request</p>
-              <p><strong>Hogtown (Section 112)</strong> - Plant-Based Hot Dog</p>
-              <p><strong>Food Junction (Section 107)</strong> - Plant-Based Hot Dog</p>
-              <p><strong>St. Patties Burgers + Poutine (Section 122)</strong> - Vegan Burger, Fries, Vegan Mushroom Poutine, Fries & Gravy (ask for vegan gravy)</p>
+              <p><strong>Molson Market (Section 101)</strong> – EDO Sushi vegan options available upon request (select events only)</p>
+              <p><strong>Hogtown (Section 103)</strong> – Plant-Based Hot Dog</p>
+              <p><strong>Wicked Carib (Section 104)</strong> – Vegan Doubles, Wicked Vegan Roti Wrap</p>
+              <p><strong>Panini Shop (Section 106) *Coming Soon*</strong> – Vegan Muffuletta</p>
+              <p><strong>St. Patties Burgers + Poutine (Section 122)</strong> – Vegan Burger, Fries, Vegan Mushroom Poutine, Fries & Gravy (ask for vegan gravy))</p>
             </div>
           </div>
           <div className="eventGrid">
@@ -374,17 +364,16 @@ const SpecialtyPage = () => {
               <h4>300 LEVEL</h4>
             </div>
             <div className="content">
-              <p><strong>Food Junction (Section 311)</strong> - Plant-Based Hot Dog</p>
-              <p><strong>EDO Sushi (Section 318)</strong> - Vegan options available upon request</p>
-              <p><strong>Hogtown (Section 320)</strong> - Plant-Based Hot Dog</p>
-              <p><strong>Poutinerie (Section 322)</strong> - Fries, Vegan Mushroom Poutine, Fries & Gravy (ask for vegan gravy)</p>
-              <p><strong>Food Junction (Section 323)</strong> - Plant-Based Hot Dog</p>
+              <p><strong>Food Junction (Section 311)</strong> – Plant-Based Hot Dog</p>
+              <p><strong>EDO Sushi (Section 318)</strong> – Vegan options available upon request (select events only)</p>
+              <p><strong>Hogtown (Section 320)</strong> – Plant-Based Hot Dog</p>
+              <p><strong>Poutinerie (Section 322)</strong> – Fries, Vegan Mushroom Poutine, Fries & Gravy (ask for vegan gravy)</p>
             </div>
           </div>
           <div className="eventGrid">
             <div></div>
             <div className="content">
-              <p><strong>Vegan Snacks</strong> - Popcorn, Salted Pretzel, Plant Based Drumstick (Section 321 only)</p>
+              <p><strong>Vegan Snacks</strong> - Popcorn, Salted Pretzel, Plant-Based Drumstick (Section 321 only))</p>
             </div>
           </div>
         </div>{" "}
@@ -407,8 +396,8 @@ const SpecialtyPage = () => {
               <h4>EVENT<br/> LEVEL</h4>
             </div>
             <div className="content">
-              <p><strong>Hot Stove Carve (Event Level)</strong> - Prime Rib Sandwich</p>
-              <p><strong>Aloette Go (Event Level)</strong> - Fried Chicken Sandwich, Spicy Chicken Sandwich, Chicken Tenders</p>
+              <p><strong>Hot Stove Carve (Event Level)</strong> – Prime Rib Sandwich</p>
+              <p><strong>Aloette Go (Event Level)</strong> – Fried Chicken Sandwich, Spicy Chicken Sandwich, Chicken Tenders</p>
             </div>
           </div>
 
@@ -417,9 +406,9 @@ const SpecialtyPage = () => {
               <h4>100 LEVEL</h4>
             </div>
             <div className="content">
-              <p><strong>Wicked Carib (Section 110)</strong> - Prime Rib Sandwich, Wicked Jerk Chicken Sandwich, Doubles, Wicked Jerk Chicken Roti Wrap, Wicked Spiced Beer Roti Wrap, Wicked Vegan Roti Wrap</p>
-              <p><strong>Gallery Bars (Section 108M, Section 117M)</strong> - Prime Rib Sandwich</p>
-              <p><strong>St. Patties Burgers + Poutine (Section 122)</strong> - Rotisserie Chicken Poutine (sub vegan gravy), Vegan Mushroom Poutine, Classic Poutine (sub vegan gravy), Fries + Gravy (sub vegan gravy)</p>
+              <p><strong>Wicked Carib (Section 104)</strong> – Prime Rib Sandwich, Wicked Jerk Chicken Sandwich, Doubles, Wicked Jerk Chicken Roti Wrap, Wicked Spiced Beef Roti Wrap, Wicked Vegan Roti Wrap</p>
+              <p><strong>Gallery Bars (Section 108M, Section 117M)</strong> – Prime Rib Sandwich (select events only)</p>
+              <p><strong>St. Patties Burgers + Poutine (Section 122)</strong> – Rotisserie Chicken Poutine (sub vegan gravy), Vegan Mushroom Poutine, Classic Poutine (sub vegan gravy), Fries & Gravy (sub vegan gravy)</p>
             </div>
           </div>
 
@@ -428,16 +417,16 @@ const SpecialtyPage = () => {
               <h4>300 LEVEL</h4>
             </div>
             <div className="content">
-              <p><strong>Cherry Street Bar-B-Que (Section 314)</strong> - Prime Rib Sandwich</p>
-              <p><strong>Hot Stove Carve (Section 318)</strong> - Prime Rib Sandwich</p>
-              <p><strong>Poutinerie (Section 322)</strong> - Rotisserie Chicken Poutine (sub vegan gravy), Vegan Mushroom Poutine, Classic Poutine (sub vegan gravy), Fries + Gravy (sub vegan gravy)</p>
-              <p><strong>King's Hawaiian (Section 323)</strong> - Hot Honey Chicken, Buffalo Chicken, Fried Chicken Sandwich</p>
+              <p><strong>Cherry Street Bar-B-Que (Section 314)</strong> – Prime Rib Sandwich</p>
+                <p><strong>Hot Stove Carve (Section 318)</strong> – Prime Rib Sandwich</p>
+                <p><strong>Poutinerie (Section 322)</strong> – Rotisserie Chicken Poutine (sub vegan gravy), Vegan Mushroom Poutine, Classic Poutine (sub vegan gravy), Fries & Gravy (sub vegan gravy)</p>
+                <p><strong>King’s Hawaiian (Section 323)</strong> – Hot Honey Chicken, Buffalo Chicken, Fried Chicken Sandwich</p>
             </div>
           </div>
         </div>{" "}
 
         
-        {/* ########### Halal ############*/}
+        {/* ########### Kosher ############*/}
         <div className="offerings" id="kosher">
           <div className="title">
             <h3>Kosher</h3>
