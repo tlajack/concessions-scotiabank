@@ -250,7 +250,7 @@ const SpecialtyPage = () => {
             <div className="content">
               <p><strong>Gluten Friendly Snacks</strong> — Popcorn</p>
               <p><strong>Strongbow Cider</strong> is available at most bars and beer kiosks</p>
-              <p><strong>Ancestral Quinoa Beer</strong> is available at Coors Light Chill Zone at Section 314, as well as at bars located at Section 105, Section 116, Section 120, and Section 323.</p>
+              <p><strong>Ancestral Quinoa Beer</strong> is available at Coors Light Chill Zone at Section 314, as well as at bars located at Section 105, Section 116, Section 120, and Section 323</p>
             </div>
           </div>
 
@@ -373,7 +373,7 @@ const SpecialtyPage = () => {
           <div className="eventGrid">
             <div></div>
             <div className="content">
-              <p><strong>Vegan Snacks</strong> - Popcorn, Salted Pretzel, Plant-Based Drumstick (Section 321 only))</p>
+              <p><strong>Vegan Snacks</strong> - Popcorn, Salted Pretzel, Plant-Based Drumstick (Section 321 only)</p>
             </div>
           </div>
         </div>{" "}
