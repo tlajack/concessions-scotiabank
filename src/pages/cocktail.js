@@ -142,7 +142,7 @@ const Cocktail = () => {
           alt="Signature Cocktail"
         />
 
-        <div className="cocktail">
+        {/* <div className="cocktail">
           <StaticImage
             className="logo"
             src="../images/cocktail-mango.png"
@@ -186,7 +186,7 @@ const Cocktail = () => {
           />
           <h2>Jurassic Juice</h2>
           <p>Cîroc® Apple, Cranberry Juice, Lemonade</p>
-        </div>
+        </div> */}
         <div className="cocktail">
           <StaticImage
             className="logo"
@@ -195,8 +195,8 @@ const Cocktail = () => {
           />
           <h2>Red Sangria</h2>
           <p>
-            Crown Black Whisky, Red Wine, Orange Juice, Ginger Ale, Fruit
-            Garnish
+            Crown Royal Blackberry, Yellow Tail Cabernet Sauvignon, POM
+            Pomegranate Juice, Ginger Ale, Apple Garnish
           </p>
         </div>
         <div className="cocktail">
@@ -207,10 +207,90 @@ const Cocktail = () => {
           />
           <h2>White Sangria</h2>
           <p>
-            Ciroc® Peach, White Wine, Pineapple Juice, Ginger Ale, Fruit Garnish
+            Smirnoff Lime Vodka, Bolla Pinot Grigio, Pineapple Juice, Fresca
+            Grapefruit Sparkling Soda, Apple Garnish
+          </p>
+        </div>
+
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/Pucker-Up.png"
+            alt="Citrus Breeze"
+          />
+          <h2>Citrus Breeze</h2>
+          <p>Smirnoff Pink Lemonade, Grapefruit Juice, Lemonade, Sprite</p>
+        </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/Pomeberry-Punch.png"
+            alt="Pomberry Punch"
+          />
+          <h2>Pomberry Punch</h2>
+          <p>
+            Crown Royal Blackberry, POM Pomegranate Juice, Lemonade, Ginger Ale
           </p>
         </div>
         <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/Lime-Tide.png"
+            alt="Lime Tide"
+          />
+          <h2>Lime Tide</h2>
+          <p>
+            Smirnoff Lime Vodka, Orange Juice, Pineapple Juice, Cranberry Juice,
+            Sprite
+          </p>
+        </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/Triple-Berry-Smash.png"
+            alt="Triple Berry Smash"
+          />
+          <h2>Triple Berry Smash</h2>
+          <p>Smirnoff Raspberry Vodka, Cran-Grape Juice, Lemonade, Sprite</p>
+        </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/ReposadoPaloma.png"
+            alt="Paloma"
+          />
+          <h2>Paloma</h2>
+          <p>
+            Don Julio Reposado, Pink Grapefruit Juice, Fresca Grapefruit
+            Sparkling Soda
+          </p>
+        </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/Sunset-Spritz.png"
+            alt="Sunset Sprite (Mocktail)"
+          />
+          <h2>Sunset Sprite (Mocktail)</h2>
+          <p>
+            Seedlip Notas De Agave, Cranberry Juice, Fresca Grapefruit Sparkling
+            Soda
+          </p>
+        </div>
+        <div className="cocktail">
+          <StaticImage
+            className="logo"
+            src="../images/cocktail-caesar-matts"
+            alt="Matt & Steve's Signature Caesar"
+          />
+          <h2>Matt & Steve&apos;s Signature Caesar</h2>
+          <p>
+            Smirnoff Vodka, Carrol & Co Blood Mix, Matt & Steve&apos;s Caesar
+            Juice, Matt & Steve&apos;s Extreme Pickle
+          </p>
+        </div>
+
+        {/* <div className="cocktail">
           <StaticImage
             className="logo"
             src="../images/cocktail-caesar.png"
@@ -239,7 +319,7 @@ const Cocktail = () => {
           />
           <h2>Vodka &amp; Redbull</h2>
           <p>Vodka & Redbull</p>
-        </div>
+        </div> */}
         {/*  
         Jurassic Juice, Sangria – red and white; and Caesar
         */}
