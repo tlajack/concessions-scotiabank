@@ -280,7 +280,7 @@ const Cocktail = () => {
         <div className="cocktail">
           <StaticImage
             className="logo"
-            src="../images/cocktail-caesar-matts"
+            src="../images/cocktail-caesar-matts.png"
             alt="Matt & Steve's Signature Caesar"
           />
           <h2>Matt & Steve&apos;s Signature Caesar</h2>
