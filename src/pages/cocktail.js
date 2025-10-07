@@ -190,7 +190,7 @@ const Cocktail = () => {
         <div className="cocktail">
           <StaticImage
             className="logo"
-            src="../images/cocktail-Sangria-red.png"
+            src="../images/cocktail-Sangria-red-2.png"
             alt="RED SANGRIA"
           />
           <h2>Red Sangria</h2>
@@ -202,7 +202,7 @@ const Cocktail = () => {
         <div className="cocktail">
           <StaticImage
             className="logo"
-            src="../images/cocktail-Sangria-white.png"
+            src="../images/cocktail-Sangria-white-2.png"
             alt="WHITE SANGRIA"
           />
           <h2>White Sangria</h2>
