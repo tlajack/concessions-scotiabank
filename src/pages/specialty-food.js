@@ -216,7 +216,9 @@ const SpecialtyPage = () => {
 
           <div className="eventGrid">
             <div className="level">
-              <h4>EVENT LEVEL</h4>
+              <h4>
+                EVENT <br /> LEVEL
+              </h4>
             </div>
             <div className="content">
               <p>
