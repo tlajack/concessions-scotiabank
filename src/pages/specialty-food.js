@@ -214,7 +214,7 @@ const SpecialtyPage = () => {
             />
           </div>
 
-          <div className="eventGrid">
+          {/* <div className="eventGrid">
             <div className="level">
               <h4>
                 EVENT <br /> LEVEL
@@ -226,7 +226,7 @@ const SpecialtyPage = () => {
                 (select events only)
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className="eventGrid">
             <div className="level">
@@ -251,9 +251,9 @@ const SpecialtyPage = () => {
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries
               </p>
-              <p>
+              {/* <p>
                 <strong>Food Junction (Section 322)</strong> – Fries
-              </p>
+              </p> */}
 
               <p>
                 <strong>KIBO (Section 318)</strong> – Made to order upon request
