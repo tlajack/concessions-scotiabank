@@ -270,12 +270,12 @@ const SpecialtyPage = () => {
               </p>
               <p>
                 <strong>Strongbow Cider</strong> is available at most bars and
-                beer kiosks
+                concessions stands
               </p>
               <p>
                 <strong>Ancestral Quinoa Beer</strong> is available at Coors
                 Light Chill Zone at Section 314, as well as at bars located at
-                Section 105, Section 116, Section 120, and Section 323
+                Section 116, Section 118, Section 105, Section 111
               </p>
             </div>
           </div>
