@@ -333,7 +333,8 @@ const SpecialtyPage = () => {
                 <strong>Real Sports (Section 109)</strong> Nacho Fries
               </p>
               <p>
-                <strong>La Cantina (Section 120)</strong> – Spiced Potato Waves
+                <strong>La Cantina (Section 120)</strong> – Vegan Chorizo
+                Burrito, Loaded Nachos, French Fries
               </p>
               <p>
                 <strong>Hot Stove Carve (Section 117)</strong> – Truffled
