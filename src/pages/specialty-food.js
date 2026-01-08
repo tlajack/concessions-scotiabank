@@ -235,10 +235,9 @@ const SpecialtyPage = () => {
             <div className="content">
               <p>
                 <strong>St. Patties Burgers + Poutine (Section 122)</strong> –
-                Cheese Please Burger (request GF bun), Triple OT Burger (remove
-                Onion Ring, request GF bun), Smokehouse Burger (remove Onion
-                Ring, request GF bun), Spice Box Burger (Remove Crispy Jalapeno,
-                Request GF Bun), Vegan Burger (request GF bun), Fries
+                Cheese Please Burger (request GF bun), Smokehouse Burger (remove
+                Onion Ring, request GF bun), Spice Box Burger (Remove Crispy
+                Jalapeno, Request GF Bun), Vegan Burger (request GF bun), Fries
               </p>
             </div>
           </div>
@@ -327,12 +326,14 @@ const SpecialtyPage = () => {
                 <strong>Wicked Carib (Section 104)</strong> – Vegan Doubles
               </p>
               <p>
-                <strong>Panini Shop (Section 106)</strong> Vegan Portabelo
+                <strong>Panini Shop (Section 106)</strong> Vegan Portobello
                 Sandwich
               </p>
               <p>
-                <strong>Food Junction (Section 109, Section 120)</strong> –
-                Spiced Potato Waves
+                <strong>Real Sports (Section 109)</strong> Nacho Fries
+              </p>
+              <p>
+                <strong>La Cantina (Section 120)</strong> – Spiced Potato Waves
               </p>
               <p>
                 <strong>Hot Stove Carve (Section 117)</strong> – Truffled
@@ -359,7 +360,7 @@ const SpecialtyPage = () => {
                 <strong>Pizza Pizza (Section 307, Section 321)</strong> – Cheese
                 Slice, Vegetarian Slice
               </p>
-              <p>
+              {/* <p>
                 <strong>Food Junction (Section 311)</strong> – Fries, Nacho
                 Fries, Loaded Nachos, Plant-Based Hot Dog
               </p>
@@ -367,7 +368,7 @@ const SpecialtyPage = () => {
               <p>
                 <strong>KIBO (Section 318)</strong> – Vegetarian Maki, Spicy
                 Vegetarian Maki, Spicy Mango Maki (select events only)
-              </p>
+              </p> */}
               <p>
                 <strong>Hogtown (Section 320)</strong> – Plant-Based Hot Dog
               </p>
@@ -432,8 +433,12 @@ const SpecialtyPage = () => {
                 <strong>Wicked Carib (Section 104)</strong> – Vegan Doubles
               </p>
               <p>
-                <strong>Panini Shop (Section 106)</strong> – Vegan Portabello
+                <strong>Panini Shop (Section 106)</strong> – Vegan Portobello
                 Sandwich
+              </p>
+              <p>
+                <strong>La Cantina (Section 120)</strong> – Vegan Chorizo
+                Burrito
               </p>
               <p>
                 <strong>St. Patties Burgers + Poutine (Section 122)</strong> –
@@ -451,10 +456,10 @@ const SpecialtyPage = () => {
                 <strong>Food Junction (Section 311)</strong> – Plant-Based Hot
                 Dog
               </p>
-              <p>
+              {/* <p>
                 <strong>KIBO (Section 318)</strong> – Vegan options available
                 upon request (select events only)
-              </p>
+              </p> */}
               <p>
                 <strong>Hogtown (Section 320)</strong> – Plant-Based Hot Dog
               </p>
@@ -511,19 +516,25 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Wicked Carib (Section 104)</strong> – Prime Rib
-                Sandwich, Wicked Jerk Chicken Sandwich, Doubles, Wicked Jerk
-                Chicken Roti Wrap, Wicked Spiced Beef Roti Wrap, Wicked Vegan
-                Roti Wrap
+                <strong>Wicked Carib (Section 104)</strong> – Wicked Jerk
+                Chicken Sandwich, Doubles, Wicked Jerk Chicken Roti Wrap, Wicked
+                Beef & Oxtail Roti, Patty Sandwiches, Wicked BBQ Chicken
+                Sandwich
               </p>
               <p>
                 <strong>Gallery Bars (Section 108M, Section 117M)</strong> –
-                Prime Rib Sandwich (select events only)
+                Prime Rib Sandwich (select events only), Wicked Oxtail & Beef
+                Patty Sandwich (select events only)
               </p>
               <p>
-                <strong>Food Junctions (Section 107 & 120) </strong> – Chicken
-                Tenders & Fries, Buffalo Tenders & Fries, Chicken Burrito,
-                Philly Grilly™
+                <strong>Crispy (Section 107) </strong> – Chicken Tenders &
+                Fries, Buffalo Tenders & Fries, Chicken Burrito, Philly Grilly™
+              </p>
+              <p>
+                <strong>La Cantina (Section 120) </strong> – Chicken Tenders &
+                Fries, Buffalo Tenders & Fries, Chicken Burrito, Beef Burrito,
+                Chicken Quesadilla, Beef Quesadilla, Loaded Nachos, Loaded Beef
+                Nachos
               </p>
               <p>
                 <strong>St. Patties Burgers + Poutine (Section 122)</strong> –
@@ -540,20 +551,20 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Food Junctions (Section 311) </strong> – Chicken Tenders
-                & Fries, Buffalo Tenders & Fries, Chicken Burrito, Philly
-                Grilly™
+                <strong>Crispy (Section 318) </strong> – Jumbo Chicken Tenders &
+                Potato Waves, Crispy Chicken Sandwich, Spicy Crispy Chicken
+                Sandwich, Crispy KD Crunch
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Rotisserie Chicken
                 Poutine (sub vegan gravy), Vegan Mushroom Poutine, Classic
                 Poutine (sub vegan gravy), Fries & Gravy (sub vegan gravy)
               </p>
-              <p>
+              {/* <p>
                 <strong>King’s Hawaiian (Section 323)</strong> – Hot Honey
                 Chicken, Buffalo Chicken, Fried Chicken Sandwich, Chicken
                 Tenders & Fries, Buffalo Tenders & Fries
-              </p>
+              </p> */}
             </div>
           </div>
         </div>{" "}
