@@ -1,2 +1,2 @@
 [[plugins]]
-package = "plugin-gatsby@5.0.5"
+package = "plugin-gatsby"
