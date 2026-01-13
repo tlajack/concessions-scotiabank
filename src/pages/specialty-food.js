@@ -320,7 +320,8 @@ const SpecialtyPage = () => {
                 Bowl
               </p>
               <p>
-                <strong>Hogtown (Section 103)</strong> – Plant-Based Hot Dog
+                <strong>Hogtown (Section 103 &amp; 112)</strong> – Plant-Based
+                Hot Dog
               </p>
               <p>
                 <strong>Wicked Carib (Section 104)</strong> – Vegan Doubles
@@ -428,7 +429,8 @@ const SpecialtyPage = () => {
                 Bowl
               </p>
               <p>
-                <strong>Hogtown (Section 103)</strong> – Plant-Based Hot Dog
+                <strong>Hogtown (Section 103 &amp; 112)</strong> – Plant-Based
+                Hot Dog
               </p>
               <p>
                 <strong>Wicked Carib (Section 104)</strong> – Vegan Doubles
@@ -453,10 +455,10 @@ const SpecialtyPage = () => {
               <h4>300 LEVEL</h4>
             </div>
             <div className="content">
-              <p>
+              {/* <p>
                 <strong>Food Junction (Section 311)</strong> – Plant-Based Hot
                 Dog
-              </p>
+              </p> */}
               {/* <p>
                 <strong>KIBO (Section 318)</strong> – Vegan options available
                 upon request (select events only)
