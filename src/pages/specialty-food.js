@@ -334,6 +334,11 @@ const SpecialtyPage = () => {
                 <strong>Real Sports (Section 109)</strong> Nacho Fries
               </p>
               <p>
+                <strong>Mac & Cheese Boutique (Section 110)</strong> Classic mac
+                &amp; Cheese, International Mac &amp; Cheese, Classic Grilled
+                Cheese
+              </p>
+              <p>
                 <strong>La Cantina (Section 120)</strong> – Vegan Chorizo
                 Burrito, Loaded Nachos, French Fries
               </p>
@@ -377,6 +382,10 @@ const SpecialtyPage = () => {
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Fries, Vegan
                 Mushroom Poutine, Fries & Gravy (ask for vegan gravy)
+              </p>
+              <p>
+                <strong>Food Junction (Section 324)</strong> Nacho Fries, Loaded
+                Nachos
               </p>
             </div>
           </div>
@@ -530,8 +539,10 @@ const SpecialtyPage = () => {
                 Patty Sandwich (select events only)
               </p>
               <p>
-                <strong>Crispy (Section 107) </strong> – Chicken Tenders &
-                Fries, Buffalo Tenders & Fries, Chicken Burrito, Philly Grilly™
+                <strong>Crispy (Section 107) </strong> – Chicken Drum Sticks (no
+                potato waves), Chicken Tenders (no potato waves) Chicken
+                Sandwich, Spicy Chicken Sandwich, Prime Rib Sandwich & Chips,
+                Crispy KD Crunch
               </p>
               <p>
                 <strong>La Cantina (Section 120) </strong> – Chicken Tenders &
@@ -554,20 +565,20 @@ const SpecialtyPage = () => {
             </div>
             <div className="content">
               <p>
-                <strong>Crispy (Section 318) </strong> – Jumbo Chicken Tenders &
-                Potato Waves, Crispy Chicken Sandwich, Spicy Crispy Chicken
-                Sandwich, Crispy KD Crunch
+                <strong>Crispy (Section 318) </strong> – Chicken Tenders (no
+                potato waves) Chicken Sandwich, Spicy Chicken Sandwich, Crispy
+                KD Crunch
               </p>
               <p>
                 <strong>Poutinerie (Section 322)</strong> – Rotisserie Chicken
                 Poutine (sub vegan gravy), Vegan Mushroom Poutine, Classic
                 Poutine (sub vegan gravy), Fries & Gravy (sub vegan gravy)
               </p>
-              {/* <p>
-                <strong>King’s Hawaiian (Section 323)</strong> – Hot Honey
-                Chicken, Buffalo Chicken, Fried Chicken Sandwich, Chicken
-                Tenders & Fries, Buffalo Tenders & Fries
-              </p> */}
+              <p>
+                <strong>Food Junction (Section 324)</strong> – Fingers & Fries,
+                Buffalo Fingers & Fries, Nacho Fries, Loaded Nachos, Prime Rib
+                Sandwich & Chips
+              </p>
             </div>
           </div>
         </div>{" "}
